@@ -1,0 +1,1689 @@
+[
+  {
+    "id": "l01",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Какая яхта имеет право дороги?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Da beide auf entgegengesetztem Schlag segeln, hat Rot auf Steuerbordschlag (Wind von Steuerbord) nach [Regel 10](rrs_10) Wegerecht.",
+      "ru": "Яхты на разных галсах. Следовательно, применяется [правило 10](rrs_10) и красная яхта (яхта правого галса) имеет право дороги.",
+      "en": "The boats are on opposite tacks. Therefore [rule 10](rrs_10) applies and the red boat has right of way."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l02",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Какая яхта имеет право дороги?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Da beide auf entgegengesetztem Schlag segeln, hat Rot auf Steuerbordschlag (Wind von Steuerbord) nach [Regel 10](rrs_10) Wegerecht.",
+      "ru": "Яхты на разных галсах. Следовательно, применяется [правило 10](rrs_10) и красная яхта (яхта правого галса) имеет право дороги.",
+      "en": "The boats are on opposite tacks. Therefore [rule 10](rrs_10) applies and Red (the starboard tack boat) has right of way."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l03",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Какая яхта имеет право дороги?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Da beide auf gleichem Schlag segeln, hat das klar voraus liegende Boot Blau nach [Regel 12](rrs_12) Wegerecht.",
+      "ru": "Обе яхты на одном галсе и не связаны, следовательно, применяется [правило 12](rrs_12) и синяя яхта (чисто впереди) имеет право дороги.",
+      "en": "Both boats are on the same tack and not overlapped, therefore [rule 12](rrs_12) applies and the blue boat (clear ahead) has right of way."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l04",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Какая яхта имеет право дороги?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Da beide auf entgegengesetztem Schlag segeln, hat Blau auf Steuerbordschlag (Wind von Steuerbord) nach [Regel 10](rrs_10) Wegerecht.",
+      "ru": "Яхты на разных галсах. Следовательно, применяется [правило 10](rrs_10) и синяя яхта (яхта правого галса) имеет право дороги.",
+      "en": "The boats are on opposite tacks. Therefore [rule 10](rrs_10) applies and Blue (the starboard tack boat) has right of way."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l05",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Какая яхта имеет право дороги?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Da beide auf gleichem Schlag segeln, hat das Leeboot Blau nach [Regel 11](rrs_11) Wegerecht.",
+      "ru": "Обе яхты на одном галсе и связаны, следовательно, применяется [правило 11](rrs_11) и синяя яхта (подветренная) имеет право дороги.",
+      "en": "Both boats are on the same tack and overlapped, therefore [rule 11](rrs_11) applies and Blue (the leeward boat) has right of way."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l06",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Какая яхта имеет право дороги?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Da beide auf entgegengesetztem Schlag segeln, hat Rot auf Steuerbordschlag (Wind von Steuerbord) nach [Regel 10](rrs_10) Wegerecht.",
+      "ru": "Яхты на разных галсах. Следовательно, применяется [правило 10](rrs_10) и красная яхта (яхта правого галса) имеет право дороги",
+      "en": "The boats are on opposite tacks. Therefore [rule 10](rrs_10) applies and the red boat on starboard tack has right of way."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l07",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Какая яхта имеет право дороги?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Da beide auf gleichem Schlag segeln, hat das Leeboot Rot nach [Regel 11](rrs_11) Wegerecht.",
+      "ru": "Обе яхты на одном галсе и связаны, следовательно, применяется [правило 11](rrs_11) и красная яхта (подветренная) имеет право дороги.",
+      "en": "Both boats are on the same tack and overlapped, therefore [rule 11](rrs_11) applies and Red (the leeward boat) has right of way."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l08",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Какая яхта имеет право дороги?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Da beide auf entgegengesetztem Schlag segeln, hat Blau auf Steuerbordschlag (Wind von Steuerbord) nach [Regel 10](rrs_10) Wegerecht. Vorwind oder tiefer ist nach Definition [Lee und Luv](rrs_def_leeward) die Großsegelseite wenn es von hinten gefüllt ist die Leeseite.",
+      "ru": "Яхты на разных галсах. Следовательно, применяется [правило 10](rrs_10) и Синяя, яхта правого галса, имеет право дороги. Когда яхта идет чистым фордевиндом или чужим галсом, то _[подветренной](rrs_def_leeward)_ стороной считается сторона, на которой находится ее грот. (См. Определение-«_[Подветренная и наветренная](rrs_def_leeward)»_)",
+      "en": "The boats are on opposite tacks. Therefore [rule 10](rrs_10) applies and the blue boat has right of way. When sailing directly downwind or by the lee, the leeward side of a boat is the side on which her mainsail lies. See Definition [_Leeward and Windward_](rrs_def_leeward)."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l09",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Какая яхта имеет право дороги?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Nach [Definition Lee und Luv](rrs_def_leeward) segeln beide auf Steuerbordschlag (Wind von Stb) und deshalb hat das Leeboot Blau nach [Regel 11](rrs_11) Wegerecht. Rot hat mit Beginn der Überlappung Ausweichpflicht und muss auf das Luven von Blau reagieren. Dieses Luven von Blau verstößt noch nicht gegen [Regel 16](rrs_16). [Regel 17](rrs_17) kommt noch nicht zum tragen, da es vor dem Startsignal keinen richtigen Kurs gibt.",
+      "ru": "В соответствии с определением [_Подветренная и Наветренная_](rrs_def_leeward), обе яхты на одном галсе, и связаны, следовательно, применяется [правило 11](rrs_11) и Синяя, (подветренная) имеет право дороги. В момент установления связанности, Красная яхта должна начать сторониться, приводясь от Синей. Изменение курса Синей на ветер не нарушает [правила 16](rrs_16), т.к. она дает Красной место, чтобы сторониться. [Правило 17](rrs_17) действует, но не имеет эффекта, т.к. до сигнала «Старт» для яхты у нее не существует надлежащего курса.",
+      "en": "In accordance with the definition [_Leeward and Windward_](rrs_def_leeward), both boats are on starboard tack, therefore [rule 11](rrs_11) applies as soon as they are overlapped and the blue boat (leeward) will have right of way at that time. At the moment when the overlap begins, Red must begin to keep clear and shall react to the luffing of the blue boat. Blue's course change to windward does not infringe [rule 15](rrs_15) and [rule 16](rrs_16). [Rule 17](rrs_17) does not apply, because there is no proper course before the starting signal."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l10",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Какая яхта имеет право дороги?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Da beide auf gleichem Schlag segeln, hat das Leeboot Blau nach [Regel 11](rrs_11) Wegerecht.",
+      "ru": "Обе яхты на одном галсе и связаны, следовательно, применяется [правило 11](rrs_11) и Синяя (подветренная) имеет право дороги.",
+      "en": "Both boats are on the same tack and overlapped, therefore [rule 11](rrs_11) applies and Blue (the leeward boat) has right of way."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l11",
+    "question": {
+      "de": "Hat Blau seine Strafdrehung regelkonform ausgeführt?",
+      "ru": "Выполнила ли яхта наказание в соответствии с правилами?",
+      "en": "Has the penalty been done as required by the rules?"
+    },
+    "answer": {
+      "de": "Zur vollständigen Ausführung der Eine-Drehung-Strafe nach [Regel 44.2](rrs_44) fehlt noch eine Halse.",
+      "ru": "По [правилу 44.2](rrs_44) «Наказание в один оборот» включает один поворот оверштаг и один поворот фордевинд. В этом случае был сделан только один поворот оверштаг, следовательно, наказание не выполнено в соответствии с правилом.",
+      "en": "In accordance with [rule 44.2](rrs_44), the penalty may be one turn including one tack and one gybe. In this case, a tack but not a gybe has been done. Therefore the penalty was not taken in accordance with the rule."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Ja",
+        "ru": "Да",
+        "en": "Yes"
+      },
+      {
+        "de": "Nein",
+        "ru": "Нет",
+        "en": "No"
+      }
+    ]
+  },
+  {
+    "id": "l12",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Какая яхта имеет право дороги?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Da beide auf entgegengesetztem Schlag segeln, hat Rot auf Steuerbordschlag (Wind von Steuerbord) nach [Regel 10](rrs_10) Wegerecht.",
+      "ru": "Яхты на разных галсах. Следовательно, применяется [правило 10](rrs_10) и Красная, яхта правого галса, имеет право дороги.",
+      "en": "The boats are on opposite tacks. Thus [rule 10](rrs_10) applies and Red (the starboard tack boat) has right of way."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l13",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Какая яхта имеет право дороги?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Da beide auf entgegengesetztem Schlag segeln, hat Blau auf Steuerbordschlag (Wind von Steuerbord) nach [Regel 10](rrs_10) Wegerecht.",
+      "ru": "Яхты на разных галсах. Следовательно, применяется [правило 10](rrs_10) и Синяя яхта, яхта правого галса, имеет право дороги. Дополнительно, согласно [правилу 14](rrs_14), яхта должна избегать касаний с другой яхтой, если это разумно возможно.",
+      "en": "The boats are on opposite tacks. Therefore [rule 10](rrs_10) applies and the blue boat (on starboard tack) has right of way."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l14",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Какая яхта имеет право дороги?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Da beide auf gleichem Schlag segeln, hat das Leeboot Rot nach [Regel 11](rrs_11) Wegerecht. Nach [Regel 14](rrs_14) muss es jedoch eine Berührung vermeiden, falls es erkennt, dass das Luvboot seiner Ausweichpflicht nicht nachkommt.",
+      "ru": "Обе яхты на одном галсе и связаны, следовательно, применяется [правило 11](rrs_11) и Красная (подветренная) имеет право дороги. Дополнительно, по [правилу 14](rrs_14), как только становится ясно, что Синяя не сторонится, Красная должна избегать контакта с ней, если это разумно возможно.",
+      "en": "The boats are on the same tack and overlapped. Thus, [rule 11](rrs_11) applies and Red - as the leeward boat - has right of way. In addition [rule 14](rrs_14) requires Red to avoid making contact if reasonably possible, once it is clear that Blue is not keeping clear."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l15",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Какая яхта имеет право дороги?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Da beide auf gleichem Schlag segeln, hat das Leeboot Rot nach [Regel 11](rrs_11) Wegerecht.",
+      "ru": "Обе яхты на одном галсе и связаны, следовательно, применяется [правило 11](rrs_11) и Красная (подветренная) имеет право дороги. Дополнительно, согласно [правилу 14](rrs_14), яхта должна избегать касаний с другой яхтой, если это разумно возможно.",
+      "en": "Both boats are on the same tack and overlapped, therefore [rule 11](rrs_11) applies and Red (the leeward boat) has right of way."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l16",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Какая яхта имеет право дороги?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Da beide auf gleichem Schlag mit Wind von Steuerbord segeln, hat das Leeboot Rot nach [Regel 11](rrs_11) Wegerecht.",
+      "ru": "Обе яхты на одном галсе и связаны, следовательно, применяется [правило 11](rrs_11) и Красная (подветренная) имеет право дороги.",
+      "en": "Both boats are on the same tack and overlapped, therefore [rule 11](rrs_11) applies and Red (the leeward boat) has right of way."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l17",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Какая яхта имеет право дороги?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Da beide auf gleichem Schlag segeln, hat das Leeboot Rot nach [Regel 11](rrs_11) Wegerecht.",
+      "ru": "Обе яхты на одном галсе и связаны, следовательно, применяется [правило 11](rrs_11) и Красная (подветренная) имеет право дороги.",
+      "en": "Both boats are on the same tack and overlapped, therefore [rule 11](rrs_11) applies and Red (the leeward boat) has right of way."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l18",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Какая яхта имеет право дороги?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Da beide auf gleichem Schlag segeln, hat das klar voraus liegende Boot Blau nach [Regel 12](rrs_12) Wegerecht.",
+      "ru": "Обе яхты на одном галсе и не связаны, следовательно, применяется [правило 12](rrs_12) и Синяя, которая чисто впереди, имеет право дороги.",
+      "en": "Both boats are on the same tack and not overlapped. Therefore [rule 12](rrs_12) applies and the blue boat (clear ahead) has right of way."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l19",
+    "question": {
+      "de": "Hat Blau Anspruch auf Bahnmarken-Raum?",
+      "ru": "Синяя яхта имеет право на место-у-знака?",
+      "en": "Is the blue boat entitled to mark-room?"
+    },
+    "answer": {
+      "de": "Beide [überlappen](rrs_def_overlapt) als das erste von ihnen die Zone erreicht. Das außen liegende rote Leeboot muss unabhängig von seinem weiterhin gültigen Wegerecht nach [Regel 18.2(a)(1)](rrs_18_2) dem innenliegenden blauen Boot [Bahnmarken-Raum](rrs_def_markroom) geben.",
+      "ru": "Яхты были [связаны](rrs_def_overlapt), когда первая из них достигла зоны. Красная, наружная и имеющая право дороги, должна дать Синей, как внутренней, [место-у-знака ](rrs_def_markroom) по [правилу 18.2(a)(1)](rrs_18_2).",
+      "en": "The boats were [_overlapped_](rrs_def_overlapt) when the first boat reached the zone. [Rule 18.2(a)(1)](rrs_18_2) requires Red (the outside boat with right-of-way) to give Blue (the inside boat) [mark-room](rrs_def_markroom)."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Ja",
+        "ru": "Да",
+        "en": "Yes"
+      },
+      {
+        "de": "Nein",
+        "ru": "Нет",
+        "en": "No"
+      }
+    ]
+  },
+  {
+    "id": "l20",
+    "question": {
+      "de": "Welches Boot muss sich freihalten?",
+      "ru": "Какая яхта обязана сторониться?",
+      "en": "Which boat was obliged to keep clear?"
+    },
+    "answer": {
+      "de": "Da beide auf entgegengesetztem Schlag segeln, muss sich Rot auf Backbordschlag (Wind von Backbord) nach [Regel 10](rrs_10) von Blau auf Steuerbordschlag (Wind von Steuerbord) freihalten.",
+      "ru": "Яхты на разных галсах. Следовательно, применяется [правило 10](rrs_10), и Синяя, на правом галсе, имеет право дороги.",
+      "en": "The boats are on opposite tacks. Thus [rule 10](rrs_10) applies and Blue (the starboard tack boat) has right of way and Red is obliged to keep clear."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l21",
+    "question": {
+      "de": "Hat Blau seine Strafdrehung regelkonform ausgeführt?",
+      "ru": "Выполнила ли яхта наказание в соответствии с правилами?",
+      "en": "Has the penalty been done as required by the rules?"
+    },
+    "answer": {
+      "de": "Zur vollständigen Ausführung der Eine-Drehung-Strafe nach [Regel 44.2](rrs_44) genügt eine Drehung mit einer Wende und einer Halse, wie hier geschehen. Volle 360° sind nicht notwendig.",
+      "ru": "По [правилу 44.2](rrs_44) «Наказание в один оборот» включает один поворот оверштаг и один поворот фордевинд. В этом случае Синяя сделала один поворот оверштаг и один поворот фордевинд, следовательно, наказание выполнено в соответствии с правилом. Нет необходимости делать полный оборот в 360°.",
+      "en": "According to [rule 44.2](rrs_44), the penalty may be one turn including one tack and one gybe. In this case, Blue has done one tack and one gybe. Therefore the penalty was taken in accordance with the rule. A full 360° turn is not necessary."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Ja",
+        "ru": "Да",
+        "en": "Yes"
+      },
+      {
+        "de": "Nein",
+        "ru": "Нет",
+        "en": "No"
+      }
+    ]
+  },
+  {
+    "id": "l22",
+    "question": {
+      "de": "Welches Boot muss sich freihalten?",
+      "ru": "Какая яхта должна сторониться?",
+      "en": "Which boat shall keep clear?"
+    },
+    "answer": {
+      "de": "Wegen [Regel 21.1](rrs_21) muss sich das blaue Boot, das in Richtung der Vorstartseite fährt, um zu starten oder einen Startfehler wieder gut zu machen von allen anderen Booten freihalten. [Regel 10](rrs_10) gilt wegen des [Vorwortes zu Abschnitt D](rrs_21) nicht.",
+      "ru": "Синяя яхта идет на предстартовую сторону стартовой линии после сигнала «Старт» для нее, чтобы стартовать или выполнить требования определения _«Старт»_. По [правилу 22.1](rrs_22) Синяя яхта должна сторониться других яхт, которые стартовали.",
+      "en": "Blue is sailing towards the pre-start side of the starting line after her starting signal to start or to comply with definition start. [Rule 21.1](rrs_21) requires Blue to keep clear of any other boat that started."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l23",
+    "question": {
+      "de": "Hat Blau seine Strafdrehung regelkonform ausgeführt?",
+      "ru": "Выполнила ли Синяя яхта наказание в соответствии с правилами?",
+      "en": "Has Blue done her penalty in accordance with the rules?"
+    },
+    "answer": {
+      "de": "Das blaue Boot hat beim gleichen Vorfall das Wegerecht von Rot verletzt und die Bahnmarke berührt. Die für die Regelverletzung nach [Regel 44.1](rrs_44) vorgesehene und in [Regel 44.2](rrs_44) beschriebene Zwei-Drehungen-Strafe ist ausreichend, da nach [Regel 44.1(a)](rrs_44) die Strafe für die Bojenberührung erlassen wird.",
+      "ru": "Синяя яхта нарушила правило Части 2 и коснулась знака в одном инциденте. По [правилу 44.1](rrs_44) яхта делает два оборота, включающие два поворота фордевинд и два поворота оверштаг, как описано в [правиле 44.2](rrs_44). Так как яхта коснулась знака в этом же инциденте, то ей не нужно делать ещё один оборот, [правило 44.1(a)](rrs_44).",
+      "en": "Blue has broken a rule of part 2 and touched a mark in the same incident. In accordance with [rule 44.1](rrs_44) Blue does two turns including two gybes and two tacks as required by [rule 44.2](rrs_44). Because she touched the mark in the same incident, she need not take the penalty for touching the mark ([rule 44.1(a)](rrs_44))."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Ja",
+        "ru": "Да",
+        "en": "Yes"
+      },
+      {
+        "de": "Nein",
+        "ru": "Нет",
+        "en": "No"
+      }
+    ]
+  },
+  {
+    "id": "l24",
+    "question": {
+      "de": "Welches Boot sollte eine Strafe annehmen oder wird im Fall eines gültigen Protestes bestraft?",
+      "ru": "Какая яхта будет дисквалифицирована по действительному протесту?",
+      "en": "Which boat should take a penalty or will be penalized in case of a valid protest?"
+    },
+    "answer": {
+      "de": "Blau musste den Kurs ändern um auszuweichen. Deshalb verstößt Rot gegen [Regel 10](rrs_10) wie aus der Definition [Freihalten](rrs_def_keepclear) hervorgeht, und sollte eineStrafe annehmen oder würde in einem gültigen Protest bestraft. Die einzelnen Zurufe sind dabei ohne Belang.",
+      "ru": "Синяя, на правом галсе, была вынуждена изменить свой курс, следовательно, Красная, левого галса, нарушила [правило 10](rrs_10). См. определение «_[Сторониться](rrs_def_keepclear)_». Оклики яхт здесь не имеют значения.",
+      "en": "The blue boat (starboard) was forced to change her course. Therefore Red (port tack) breaks [rule 10](rrs_10) and and should take a penalty or will be penalized in a valid protest. See also [definition \"keep clear\"](rrs_def_keepclear). The hailing from the boats makes no difference."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l25",
+    "question": {
+      "de": "Welches Boot sollte bei leichter Berührung eine Strafe annehmen oder wird im Fall eines gültigen Protestes bestraft?",
+      "ru": "Какая яхта будет наказана по действительному протесту в случае легкого контакта?",
+      "en": "Which boat should in case of little contact take a penalty or will be penalized in case of a valid protest?"
+    },
+    "answer": {
+      "de": "Blau hätte seinen Kurs fahren können. Erst durch die Kursänderung von Blau kommt es zu einem Kollisionskurs. Die Kursänderung von Blau kommt so spät, dass jedes Ausweichmanöver von Rot trotzdem zu einer Behinderung von Blau geführt hätte. Deshalb hat Blau gegen [Regel 16.1](rrs_16) verstoßen, da es bei seiner Kursänderung keinen Raum zum Freihalten für Rot gegeben hat. Blau sollte eineStrafe annehmen oder würde in einem gültigen Protest bestraft.",
+      "ru": "Яхты шли пересекающимися курсами. Красная на левом галсе сторонится Синей на правом; Синей не было необходимости менять курс. Когда Синяя повернула в сторону Красной, она не оставила ей места, чтобы сторониться. Поэтому Синяя нарушила [правило 16.1](rrs_16) и должна принять штраф или будет наказана по действительному протесту.",
+      "en": "As the boats converged, Red - on port tack - was keeping clear, and there was no need for Blue (starboard) to change course. Blue (starboard) changed course onto a collision course with Red at a time when Red was not able to keep clear. Therefore Blue infringed [rule 16](rrs_16) and should take a penalty or will be penalized in case of a valid protest."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l26",
+    "question": {
+      "de": "Welches Boot muss sich frei halten?",
+      "ru": "Какая яхта должна сторониться?",
+      "en": "Which boat has to keep clear?"
+    },
+    "answer": {
+      "de": "Da beide auf entgegengesetztem Schlag segeln, muss das rote Boot auf Backbordschlag (Wind von Backbord) nach [Regel 10](rrs_10) ausweichen. [Regel 21.1](rrs_21) ist noch nicht anwendbar, da das Startsignal noch nicht erfolgte.",
+      "ru": "Яхты на разных галсах. Следовательно, применяется [правило 10](rrs_10) и Синяя, яхта правого галса, имеет право дороги, а Красная должна сторониться. [Правило 22.1](rrs_22) не применяется до сигнала «Старт».",
+      "en": "The boats are on opposite tacks. Thus, [rule 10](rrs_10) applies and Red - on port tack - has to keep clear. [Rule 21.1](rrs_21) does not apply before the starting signal."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l27",
+    "question": {
+      "de": "Hat Blau seine Strafdrehung regelkonform ausgeführt?",
+      "ru": "Выполнила ли Синяя яхта наказание в соответствии с правилами?",
+      "en": "Has the penalty been done as required by the rules?"
+    },
+    "answer": {
+      "de": "Zur vollständigen Ausführung der Eine-Drehung-Strafe nach [Regel 44.2](rrs_44) fehlt noch eine Wende.",
+      "ru": "По [правилу 44.2](rrs_44) «Наказание в один оборот» включает один поворот оверштаг и один поворот фордевинд. В этом случае был сделан только поворот фордевинд. Следовательно, наказание не выполнено в соответствии с правилом.",
+      "en": "In accordance with [rule 44.2](rrs_44), the penalty may be one turn including one tack and one gybe. In this case, only a gybe but not a tack has been done. Therefore the penalty was not taken in accordance with the rule."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Ja",
+        "ru": "Да",
+        "en": "Yes"
+      },
+      {
+        "de": "Nein",
+        "ru": "Нет",
+        "en": "No"
+      }
+    ]
+  },
+  {
+    "id": "l28",
+    "question": {
+      "de": "Welches Boot sollte eine Strafe annehmen oder wird im Fall eines gültigen Protestes unabhängig von Regel 14 bestraft?",
+      "ru": "Какая яхта будет наказана по действительному протесту?",
+      "en": "Which boat should take a penalty or will be penalized in case of a valid protest?"
+    },
+    "answer": {
+      "de": "Als Blau die [Zone](rrs_def_zone) erreicht, überlappen die Boote nicht. Deshalb muss Rot nach [Regel 18.2(a)(2)](rrs_18_2) Blau [Bahnmarken-Raum](rrs_def_markroom) geben, solange [Regel 18.2(a)](rrs_18_2) gilt, auch wenn später eine Überlappung hergestellt wird. Da die Halse Teil des [richtigen Kurses](rrs_def_propercourse) beim Rundemanöver ist, sind die Verstöße gegen [Regel 11](rrs_11) und [Regel 10](rrs_10) (entgegengesetzter Schlag) durch Blau wegen [Regel 43.1(b)](rrs_43) entlastet, da Blau innerhalb des ihr zustehenden Bahnmarken-Raums segelt. Da Rot keinen Bahnmarken-Raum gibt, ist es im Protestfall auszuschließen. Bei einer Berührung mit Schaden ist zusätzlich zu prüfen ob Blau gegen [Regel 14](rrs_14) verstoßen hat. Zu dem Zeitpunkt als Blau erkennen kann, dass Rot keinen Raum gibt, ist eine Berührung wohl kaum mehr zu vermeiden, vielleicht aber zu minimieren.",
+      "ru": "Когда Синяя достигает [зоны](rrs_def_zone), яхты не связаны. По [правилу 18.2(a)(2)](rrs_18_2) Красная должна дать Синей [место-у-знака](rrs_def_markroom), пока действует [правило 18.2(a)](rrs_18_2), даже если позже возникнет внутренная связанность. Поворот фордевинд и приведение — часть манёвра огибания на её [надлежащем курсе](rrs_def_propercourse), поэтому нарушения [правил 10](rrs_10) или [11](rrs_11) Синей оправданы по [правилу 43.1(b)](rrs_43), так как она идёт в пределах своего места-у-знака. Поскольку Красная не дала место-у-знака, она будет дисквалифицирована по протесту. Если был ущерб, нужно проверить, нарушила ли Синяя [правило 14](rrs_14). В момент, когда становится ясно, что Красная не даёт место-у-знака, Синей почти невозможно избежать контакта, возможно лишь минимизировать ущерб.",
+      "en": "When the blue boat reached the zone, the red and blue boats were not overlapped. Therefore [rule 18.2(a)(2)](rrs_18_2) requires the red boat to give [_mark-room_](rrs_def_markroom) as long as [rule 18.2(a)](rrs_18_2) applies, even if she later becomes overlapped inside. An infringement of [rule 11](rrs_11) or [rule 10](rrs_10) by Blue is exonerated by [rule 43.1(b)](rrs_43), because the gybe and luffing are part of the rounding manoeuvre on Blue's [_proper course_](rrs_def_propercourse) and within the mark-room she is entitled to. Because the red boat did not give _mark-room_, she will be disqualified in a protest. If there was damage, it shall be investigated if Blue breaks [rule 14](rrs_14). When it became clear that the red boat was not giving _mark-room_, it was difficult for her to avoid contact, though she might minimize damage."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l29",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Какая яхта имеет право дороги?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Da beide auf entgegengesetztem Schlag segeln, hat Blau auf Steuerbordschlag (Wind von Steuerbord) nach [Regel 10](rrs_10) Wegerecht.",
+      "ru": "Яхты на разных галсах. Следовательно, применяется [правило 10](rrs_10) и Синяя яхта, яхта правого галса, имеет право дороги",
+      "en": "The boats are on opposite tacks. Therefore [rule 10](rrs_10) applies and the blue boat (on Starboard tack) has right of way."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l30",
+    "question": {
+      "de": "Welches Boot hätte sich frei halten müssen?",
+      "ru": "Какая яхта должна сторониться?",
+      "en": "Which boat was obliged to keep clear?"
+    },
+    "answer": {
+      "de": "Da beide auf gleichem Schlag segeln, muss sich das blaue Boot klar achteraus nach [Regel 12](rrs_12) freihalten.",
+      "ru": "Обе яхты на одном галсе и не связаны, следовательно, применяется [правило 12](rrs_12) и Синяя, которая чисто позади, должна сторониться.",
+      "en": "Both boats are on the same tack and not overlapped. Therefore [rule 12](rrs_12) applies and the blue boat, being clear astern, shall keep clear."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l31",
+    "question": {
+      "de": "Hat Blau seine Strafdrehung regelkonform ausgeführt?",
+      "ru": "Выполнила ли Синяя яхта наказание в соответствии с правилами?",
+      "en": "Has the penalty been done as required by the rules?"
+    },
+    "answer": {
+      "de": "Zur vollständigen Ausführung der Eine-Drehung-Strafe nach [Regel 44.2](rrs_44) fehlt noch eine Wende.",
+      "ru": "По [правилу 44.2](rrs_44) «Наказание в один оборот» включает один поворот оверштаг и один поворот фордевинд. В этом случае был сделан только поворот фордевинд. Следовательно, наказание не выполнено в соответствии с правилом.",
+      "en": "In accordance with [rule 44.2](rrs_44), the penalty may be one turn including one tack and one gybe. In this case, only a gybe but not a tack has been done. Therefore the penalty was not taken in accordance with the rule."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Ja",
+        "ru": "Да",
+        "en": "Yes"
+      },
+      {
+        "de": "Nein",
+        "ru": "Нет",
+        "en": "No"
+      }
+    ]
+  },
+  {
+    "id": "l32",
+    "question": {
+      "de": "Darf das rote Boot dem blauen Boot den Bahnmarken-Raum verweigern?",
+      "ru": "Имeет ли право Красная, правого галса, не дать Синей место-у-знака?",
+      "en": "May the red starboard-tack boat refuse to give mark-room to Blue?"
+    },
+    "answer": {
+      "de": "Da beide Boote eindeutig bei Erreichen der Zone überlappen, muss das außenliegende rote Wegerechtboot dem innenliegenden blauen Boot nach [Regel 18.2(a)(1)](rrs_18_2) [Bahnmarken-Raum](rrs_def_markroom) geben.",
+      "ru": "Яхты были явно связаны, когда достигли зоны. Следовательно, Красная (наружная) должна дать Синей (внутренней) место-у-знака по [правилу 18.2(a)(1)](rrs_18_2), чтобы обогнуть знак.",
+      "en": "The boats were clearly overlapped when they reached the zone. Therefore, Red (the outside boat) shall give Blue (the inside boat) [_mark-room_](rrs_def_markroom) in accordance with [rule 18.2(a)(1)](rrs_18_2)."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Ja",
+        "ru": "Да",
+        "en": "Yes"
+      },
+      {
+        "de": "Nein",
+        "ru": "Нет",
+        "en": "No"
+      }
+    ]
+  },
+  {
+    "id": "l33",
+    "question": {
+      "de": "Hat Blau seine Strafdrehung regelkonform ausgeführt?",
+      "ru": "Выполнила ли Синяя яхта наказание в соответствии с правилами?",
+      "en": "Has Blue done her penalty in accordance with the rules?"
+    },
+    "answer": {
+      "de": "Für die nach Regel [Regel 44.1](rrs_44) für eine Wegerechtsverletzung vorgesehene Strafe nach [Regel 44.2](rrs_44) von zwei Drehungen einschließlich zweier Wenden und Halsen in die gleiche Richtung fehlen noch eine Wende. Der Zählbeginn für die Drehung ist erst nach dem Freisegeln von Blau. Die Zwangswende bei der Behinderung gehört deshalb nicht zur Entlastungsstrafe.",
+      "ru": "Синяя нарушила правило Части 2. По [правилу 44.1](rrs_44) яхта должна сделать два оборота в одном направлении, включающие два поворота фордевинд и два поворота оверштаг, как описано в [правиле 44.2](rrs_44). В этом случае, Синяя сделала только один поворот оверштаг после инцидента. Яхта начинает выполнять наказание, если сразу после инцидента отойдет от других яхт и немедленно сделает два оборота. Вынужденный поворот оверштаг не может считаться частью «Наказания в два оборота». Следовательно, наказание не выполнено в соответствии с правилами.",
+      "en": "In accordance with [rule 44.1](rrs_44) a boat may take a penalty as prescribed in [rule 44.2](rrs_44), which is two turns in the same direction including two tacks and two gybes. In this case, Blue has done only one tack after the incident. The penalty begins when the boat has sailed well clear *after* the forced tack. The forced tack may not be counted as part of the penalty turns. Therefore the penalty was not taken in accordance with the rule."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Ja",
+        "ru": "Да",
+        "en": "Yes"
+      },
+      {
+        "de": "Nein",
+        "ru": "Нет",
+        "en": "No"
+      }
+    ]
+  },
+  {
+    "id": "l34",
+    "question": {
+      "de": "Hat das rote Boot Anspruch auf Bahnmarken-Raum?",
+      "ru": "Имеет ли право Красная яхта на место-у-знака?",
+      "en": "Is the red boat entitled to mark-room?"
+    },
+    "answer": {
+      "de": "Zwischen zwei Booten mit Wind von entgegengesetzter Seite, die um eine Luvboje runden gilt wegen Regel [Regel 18.1 (a)(1)](rrs_18_1) die [Regel 18](rrs_18_1) (Bahnmarken-Raum) nicht. Es gilt hier nur die [Regel 10](rrs_10) und Blau hat als Boot auf Steuerbordschlag (Wind von Steuerbord) Wegerecht und Rot keinen Anspruch auf Bahnmarken-Raum.",
+      "ru": "Красная и Синяя яхты на разных галсах идут в лавировку. [Правило 18 (Место у знака)](rrs_18_1) не применяется - см. [правило 18.1(a)(1)](rrs_18_1). Следовательно, применяется [правило 10](rrs_10). Синяя имеет право дороги, а Красная не имеет право на место-у-знака.",
+      "en": "Red and Blue are on opposite tacks on a beat to windward. Therefore [rule 18 (Mark-Room) ](rrs_18_1) does not apply - see [rule 18.1(a)(1)](rrs_18_1). In this case [rule 10](rrs_10) applies. Blue has right of way, and Red is not entitled to mark-room."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Ja",
+        "ru": "Да",
+        "en": "Yes"
+      },
+      {
+        "de": "Nein",
+        "ru": "Нет",
+        "en": "No"
+      }
+    ]
+  },
+  {
+    "id": "l35",
+    "question": {
+      "de": "Darf Rot seinen Kurs fortsetzen und innerhalb Grün runden?",
+      "ru": "Имеет ли право Красная яхта продолжать идти этим же курсом?",
+      "en": "Is Red entitled to hold this course and pass between Green and the mark?"
+    },
+    "answer": {
+      "de": "Als Grün zuerst die [Zone](rrs_def_zone) erreicht, überlappen Rot und Grün nicht. Deshalb gilt [Regel 18.2(a)(2)](rrs_18_2) und Rot muss während des gesamten Rundemanövers Grün [Bahnmarken-Raum](rrs_def_markroom) geben. Diesen Bahnmarken-Raum würde Rot auf dem gezeichneten Kurs nicht geben.\n\nAnmerkung: Als Blau die Zone erreicht, überlappt Rot innen. Blau als außenliegendes Boot muss Rot und Grün [Bahnmarken-Raum](rrs_def_markroom) nach [Regel 18.2(a)(1)](rrs_18_2) gewähren.",
+      "ru": "Когда Зелёная первой входит в [зону](rrs_def_zone), Красная с ней не связана. Применяется [правило 18.2(a)(2)](rrs_18_2), и Красная должна на всём протяжении огибания дать Зелёной [место-у-знака](rrs_def_markroom). По показанному курсу Красная этого места не даст.\n\nПримечание: когда Синяя достигает зоны, Красная связана внутри, и Синяя как внешняя должна дать Красной и Зелёной [место-у-знака](rrs_def_markroom) по [правилу 18.2(a)(1)](rrs_18_2).",
+      "en": "When Green reaches the [zone](rrs_def_zone) first, Red and Green are not overlapped. Therefore [rule 18.2(a)(2)](rrs_18_2) applies and Red shall give Green [_mark-room_](rrs_def_markroom) throughout the rounding. On the shown course Red would not give that mark-room.\n\nNote: When Blue reaches the zone, Red has an inside overlap. Blue, the outside boat, must give Red and Green [_mark-room_](rrs_def_markroom) under [rule 18.2(a)(1)](rrs_18_2)."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Ja",
+        "ru": "Да",
+        "en": "Yes"
+      },
+      {
+        "de": "Nein",
+        "ru": "Нет",
+        "en": "No"
+      }
+    ]
+  },
+  {
+    "id": "l36",
+    "question": {
+      "de": "Hat Blau seine Strafdrehung regelkonform ausgeführt?",
+      "ru": "Выполнила ли Синяя яхта наказание в соответствии с правилами?",
+      "en": "Has the penalty been done as required by the rules?"
+    },
+    "answer": {
+      "de": "Zur vollständigen Ausführung der Eine-Drehung-Strafe nach [Regel 44.2](rrs_44) genügt eine Drehung mit einer Wende und einer Halse, wie hier geschehen.",
+      "ru": "По [правилу 44.2](rrs_44) «Наказание в один оборот» включает один поворот оверштаг и один поворот фордевинд. В этом случае яхта сделала один поворот оверштаг и один поворот фордевинд. Следовательно, наказание выполнено в соответствии с правилом.",
+      "en": "According to [rule 44.2](rrs_44), the penalty may be one turn including one tack and one gybe. In this case, Blue has done one tack and one gybe. Therefore the penalty was taken in accordance with the rule."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Ja",
+        "ru": "Да",
+        "en": "Yes"
+      },
+      {
+        "de": "Nein",
+        "ru": "Нет",
+        "en": "No"
+      }
+    ]
+  },
+  {
+    "id": "l37",
+    "question": {
+      "de": "Darf Rot einen Aufschießer machen und innerhalb Blau runden?",
+      "ru": "Имеет ли право Красная приводиться, чтобы обогнуть знак внутренней?",
+      "en": "Is Red allowed to luff up to shoot the mark and round inside of Blue here?"
+    },
+    "answer": {
+      "de": "Zwischen Rot und Blau gelten die [Regel 18.2(a)(1)](rrs_18_2) und die [Regel 11](rrs_11). Blau muss sich sowohl [freihalten](rrs_def_keepclear) als auch [Bahnmarken-Raum](rrs_def_markroom) geben. Ein Luven von Rot in der dargestellten Form ändert an der Wegerechtsituation nichts. Da das Luven Teil des [richtigen Kurses](rrs_def_propercourse) zum Runden der Bahnmarke ist, ist ein möglicher Verstoß gegen [Regel 16.1](rrs_16) durch Rot nach [Regel 43.1(b)](rrs_43) entlastet.",
+      "ru": "Когда яхты достигли зоны, Красная и Синяя на одном галсе и связаны. Красная - внутренняя. Применяются [правила 11](rrs_11) и [18.2(a)(1)](rrs_18_2). Синяя яхта должна [_сторониться_](rrs_def_keepclear) и дать [место-у-знака](rrs_def_markroom). Приведение Красной яхты, как показано в фильме, не меняет ситуации. Она идет своим [надлежащим курсом](rrs_def_propercourse) и если при этом нарушит [правило 16.1](rrs_16), то будет оправдана по [правилу 43.1(b)](rrs_43).",
+      "en": "Red and Blue are overlapped on the same tack, with Red being the inside boat as the boats reaches the zone. [Rule 18.2(a)(1)](rrs_18_2) and [rule 11](rrs_11) thus apply. Blue has to [_keep clear_](rrs_def_keepclear) and give [_mark-room_](rrs_def_markroom). Red's luffing as shown in the film does not change this situation. Red sails her [_proper course_](rrs_def_propercourse) and an infringement of [rule 16.1](rrs_16) is exonerated by [rule 43.1(b)](rrs_43)."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Ja",
+        "ru": "Да",
+        "en": "Yes"
+      },
+      {
+        "de": "Nein",
+        "ru": "Нет",
+        "en": "No"
+      }
+    ]
+  },
+  {
+    "id": "l38",
+    "question": {
+      "de": "Protest, schwerer Schaden, wie ist ihre Entscheidung?",
+      "ru": "Протест, серьезный ущерб. Ваше решение?",
+      "en": "Protest, serious damage. What is your decision?"
+    },
+    "answer": {
+      "de": "Rot hat sich nach [Regel 10](rrs_10) als Boot auf Backbordschlag (Wind von backbord) freizuhalten und tut dies nicht. Da es zu einem Schaden kam, ist zu untersuchen, ob Blau gegen [Regel 14](rrs_14) verstoßen hat. Bei einem solchen Fall, wo Rot in die Seite von Blau fährt, ist der Zeitpunkt, an dem Blau eine Kollision hätte vermeiden können früher als der Zeitpunkt, an dem es erkennen kann dass Rot seiner Ausweichverpflichtung nicht nachkommt. Deshalb hat Blau [Regel 14](rrs_14) nicht verletzt. Da erheblicher und vermutlich auch physsischer Schaden ist, kann Blau Wiedergutmachung nach Regel [Regel 62.1(b)](rrs_62) beantragenund kann Wiedergutmachung erhalten, wenn der physische Schaden zur Verschlechterung der Performance des Bootes führte.",
+      "ru": "Красная, левого галса, нарушила [правило 10](rrs_10) и будет дисквалифицирована. Так как нанесен ущерб, необходимо установить нарушила ли Синяя яхта [правило 14](rrs_14). В тот момент, когда Синяя поняла, что Красная не сторониться, она не имела возможности избежать столкновения. Следовательно, Синяя не нарушила [правило 14](rrs_14). Поскольку произошло физическое повреждение Синей яхты из-за действий яхты «нарушившей правила Части 2», то Синяя имеет право на исправление результата по [правилу 62.1(b)](rrs_62) при условии, что ущерб яхты существенно ухудшил её результат в гонке.",
+      "en": "The port-tack boat (Red) infringed [rule 10](rrs_10) and should therefore be disqualified. Since damage resulted, we must investigate if Blue has broken [rule 14](rrs_14). In this case, when Red sails into Blue's port side, this is the moment, when Blue realized, that Red would not be keeping clear, but at this time she was no longer able to avoid contact. Therefore Blue did not infringe [rule 14](rrs_14). Because there was physical damage to Blue that was caused by a boat \"breaking a rule of Part 2\", she is entitled to redress in accordance with [rule 62.1(b)](rrs_62), provided this damage made her finish position \"significantly worse\"."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Rot wird bestraft, Blau bekommt Wiedergutmachung",
+        "ru": "Дисквалифицировать Красную и исправить результат Синей",
+        "en": "Red disqualified, Blue is entitled to redress",
+        "de_short": "Rot DSQ, Blau Redress",
+        "en_short": "Red DSQ, Blue gets redress",
+        "ru_short": "Красная DSQ, Синей исправление"
+      },
+      {
+        "de": "Rot wird bestraft, für Blau keine Wiedergutmachung",
+        "ru": "Дисквалифицировать Красную яхту и не исправлять результат Синей",
+        "en": "Red disqualified, No redress for Blue",
+        "de_short": "Rot DSQ, Blau kein Redress",
+        "en_short": "Red DSQ, no redress for Blue",
+        "ru_short": "Красная DSQ, Синей не исправлять"
+      },
+      {
+        "de": "Blau und Rot werden bestraft",
+        "ru": "Дисквалифицировать Красную и Синюю яхты",
+        "en": "Blue and Red disqualified",
+        "ru_short": "DSQ Красной и Синей"
+      }
+    ]
+  },
+  {
+    "id": "l39",
+    "question": {
+      "de": "Hat Blau seine Strafdrehung regelkonform ausgeführt?",
+      "ru": "Выполнила ли яхта наказание в соответствии с правилами?",
+      "en": "Has the penalty been done as required by the rules?"
+    },
+    "answer": {
+      "de": "Zur vollständigen Ausführung der Eine-Drehung-Strafe nach [Regel 44.2](rrs_44) genügt eine Drehung mit einer Wende und einer Halse, wie hier geschehen.",
+      "ru": "По [правилу 44.2 ](rrs_44) «Наказание в один оборот» включает один поворот оверштаг и один поворот фордевинд. В этом случае яхта сделала один поворот оверштаг и один поворот фордевинд. Следовательно, наказание выполнено в соответствии с правилом.",
+      "en": "According to [rule 44.2](rrs_44), the penalty may be one turn including one tack and one gybe. In this case, Blue has done one tack and one gybe. Therefore the penalty was taken in accordance with the rule."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Ja",
+        "ru": "Да",
+        "en": "Yes"
+      },
+      {
+        "de": "Nein",
+        "ru": "Нет",
+        "en": "No"
+      }
+    ]
+  },
+  {
+    "id": "l40",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Какая яхта имеет право дороги?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Das blaue Boot segelt nach [Definition Lee und Luv](rrs_def_leeward) solange noch auf Steuerbordschalg (Wind von Stb), solange es nicht durch den Wind gegangen ist. Ebenso segelt das rote Boot auf Backbordschlag (Wind von Bb). Deshalb gilt [Regel 10](rrs_10) und das rote Boot muss sich freihalten. Da Rot der Kursänderung von Blau folgen kann, verstößt Blau nicht gegen [Regel 16](rrs_16).",
+      "ru": "В соответствии с определением _[Подветренная и наветренная](rrs_def_leeward)_, Синяя находится на правом галсе до тех пор, пока не пройдет положение левентик. Красная тоже не прошла положение левентик, т.е. она ещё на левом галсе. Следовательно, применяется [правило 10](rrs_10), и Красная должна сторониться. Синяя, изменяя свой курс, не нарушает [правило 16](rrs_16), так как дает Красной место, чтобы та могла сторониться.",
+      "en": "In accordance with the definition [_Leeward and Windward_](rrs_def_leeward), Blue is on starboard tack boat until she is past head to wind and Red is on port. [Rule 10](rrs_10) applies and the red boat must keep clear. The red boat is able to keep clear with the change of course of the blue boat. Therefore the blue boat does not infringe [rule 16](rrs_16)."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l41",
+    "question": {
+      "de": "Welches Boot darf seinen Kurs fortsetzen?",
+      "ru": "Какая яхта имеет право идти своим курсом?",
+      "en": "Which boat has right to sail her course?"
+    },
+    "answer": {
+      "de": "Für Boote die sich auf entgegen gesetztem Schlag einer Luvbahnmarke nähern, gilt [Regel 18](rrs_18_1) (Bahnmarken-Raum) nicht (siehe [Regel 18.1(a)(1)](rrs_18_1)), sondern nur [Regel 10](rrs_10). Das blaue Boot auf Backbordschlag (Wind von Backbord) muss sich [freihalten](rrs_def_keepclear).",
+      "ru": "[Правило 18](rrs_18_1) не применяется, когда яхты находятся на разных галсах и идут в лавировку против ветра ([Правило18.1(а)(1)](rrs_18_1)). Здесь применяется [правило 10](rrs_10) и Красная имеет право дороги, а Синяя должна [сторониться](rrs_def_keepclear).",
+      "en": "[Rule 18.1(a)(1)](rrs_18_1) indicates that [rule 18](rrs_18_1) does not apply to boats on opposite tacks on a beat to windward. In this case [rule 10](rrs_10) applies and the blue boat shall [_keep clear_](rrs_def_keepclear)."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l42",
+    "question": {
+      "de": "Hat das rote Boot die falsche Rundung wieder gut gemacht?",
+      "ru": "Исправила ли Красная яхта свою ошибку?",
+      "en": "Has the red boat corrected her error to round the mark on the wrong side?"
+    },
+    "answer": {
+      "de": "Die gezeigte Wiedergutmachung reicht nicht. Zieht man nämlich die in [Def \"Absegeln der Bahn\" ](rrs_def_course) beschriebene Schnur, die die Spur des Bootes bedeutet, nach der gezeigten Rundung straff, so würde diese Schnur von der Boje rutschen und sie nicht mehr wie vorgeschrieben auf der Backbordseite berühren.",
+      "ru": "Нет. Красная яхта не исправила свою ошибку в соответствии с [правилом 28.2](rrs_28). «Веревочка», представляющая путь яхты, если её натянуть, соскользнёт со знака, следовательно, яхта не обогнула знак левым бортом как предписано.",
+      "en": "No. Red has not corrected her error as required by [definition \"sail the course\"](rrs_def_course). The string representing her course would slip from the mark, when pulled straight and Red will not have left the mark to port as prescribed."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Ja",
+        "ru": "Да",
+        "en": "Yes"
+      },
+      {
+        "de": "Nein",
+        "ru": "Нет",
+        "en": "No"
+      }
+    ]
+  },
+  {
+    "id": "l43",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Which boat has right of way?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Da beide auf gleichem Schlag segelnd überlappen, hat das Leeboot Rot nach [Regel 11](rrs_11) Wegerecht. Nach [Regel 14](rrs_14) muss es jedoch eine Berührung vermeiden. [Regel 17](rrs_17) trifft nicht zu, da die Überlappung in einem Abstand von mehr als zwei Rumpflängen hergestellt wurde.",
+      "ru": "Обе яхты на одном галсе и связаны, следовательно, применяется [правило 11](rrs_11) и Красная (подветренная) имеет право дороги. [Правило 17](rrs_17) не применяется, потому что Красная установила связанность тогда, когда она была на расстоянии больше чем две длинны своего корпуса от Синей.",
+      "en": "Both boats are overlapped on the same tack. Therefore [rule 11](rrs_11) applies, and the leeward boat (Red) has right of way. Of course, [rule 14](rrs_14) requires Red (and Blue!) to avoid contact. [Rule 17](rrs_17) does not apply, because when Red became overlapped, the boats were more than two of Red's hull lengths apart."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l44",
+    "question": {
+      "de": "Welches Boot sollte eine Strafe annehmen oder wird im Fall eines gültigen Protestes bestraft?",
+      "ru": "Какая яхта будет наказана по действительному протесту?",
+      "en": "Which boat should take a penalty or will be penalized in case of a valid protest?"
+    },
+    "answer": {
+      "de": "Da beide auf gleichem Schlag segeln, hat das Leeboot Blau nach [Regel 11](rrs_11) Wegerecht. Rot hatte nach Herstellung der Überlappung ausreichend Gelegenheit, sich auf die neue Situation einzustellen und verstößt gegen [Regel 11](rrs_11) und sollte eineStrafe annehmen oder würde in einem gültigen Protest bestraft. Blau hat nicht gegen [Regel 15](rrs_15) verstossen. Durch die Berührung hat Blau zwar [Regel 14](rrs_14) verletzt, wird aber, da kein Schaden nach [Regel 14(b)](rrs_14) entlastet.",
+      "ru": "Обе яхты на одном галсе и связаны, следовательно, применяется [правило 11](rrs_11) и Синяя (подветренная) имеет право дороги. После того как Синяя установила связанность, было достаточно места и времени для Красной, чтобы сторониться. Красная не сделала этого и нарушила [правило 11](rrs_11). Синяя яхта не нарушила [правило 15](rrs_15), но она не избегала контакта и, следовательно, нарушила [правило 14](rrs_14). Поскольку нет ущерба, она не будет наказана.",
+      "en": "Red and Blue are overlapped on the same tack, so [rule 11](rrs_11) applies, and the leeward boat (Blue) has right of way. After Blue established her overlap, there was enough time and room for Red to keep clear. Therefore Red infringes [rule 11](rrs_11) and should take a penalty or will be penalized in a valid protest. Blue did not infringe [rule 15](rrs_15). Because Blue did not avoid contact, she infringed [rule 14](rrs_14). However, she caused no damage, and will therefore not be penalized under [rule 14](rrs_14)."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l45",
+    "question": {
+      "de": "Welches Boot sollte eine Strafe annehmen oder wird im Fall eines gültigen Protestes bestraft?",
+      "ru": "Какая яхта будет наказана по действительному протесту?",
+      "en": "Which boat should take a penalty or will be penalized in case of a valid protest?"
+    },
+    "answer": {
+      "de": "Blau verstößt gegen [Regel 13](rrs_13) und sollte eineStrafe annehmen oder würde in einem gültigen Protest bestraft. Es war zunächst nach [Regel 10](rrs_10) als Boot auf Backbordschlag (Wind von Bb) ausweichpflichtig. Diese Ausweichpflicht ist völlig unabhängig von irgendwelchen Raum-Rufen. Der zu späte Versuch auszuweichen führte zu einer Berührung nachdem Blau durch den Wind gegangen ist. Blau ist deshalb nach [Regel 13](rrs_13) zu bestrafen. Selbst wenn es bei der Berührung bereits wieder auf Am-Wind-Kurs gewesen wäre, hätte Blau noch wegen Verletzung der [Regel 15](rrs_15) bestraft werden können. Eine Bestrafung von Rot wegen Verletzung von [Regel 14](rrs_14) ist sowohl wegen der Geringfügigkeit der Berührung aber auch wegen des nicht voraussehbar späten Ausweichmanövers von Blau nicht regelkonform.",
+      "ru": "Синяя яхта будет наказана за нарушение [правила 13](rrs_13). Вначале действовало [правило 10](rrs_10), и Синяя, левого галса, должна была сторониться. При этом не важно, сделан оклик или нет. Попытка уступить дорогу была сделана слишком поздно, и как только Синяя закончила поворот, сразу произошёл контакт. Значит, Синяя яхта нарушила [правило 15](rrs_15) и должна быть наказана. Красная не должна быть наказана за нарушение [правила 14](rrs_14), потому что не было ущерба.",
+      "en": "Blue infringes [rule 13](rrs_13) and should take a penalty or will be penalized in a valid protest. First [rule 10](rrs_10) applies and the port-tack boat (Blue) must keep clear. It is not important if there is a hail or not. The attempt to keep clear was too late. Also, if the contact was a little later and Blue had already completed her tack just before contact, she would be penalized for infringing [rule 15](rrs_15). Red will not be penalized for infringing [rule 14](rrs_14), because there was no damage."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l46",
+    "question": {
+      "de": "Hat Blau seine Strafdrehung regelkonform ausgeführt?",
+      "ru": "Выполнила ли яхта наказание в соответствии с правилами?",
+      "en": "Has the penalty been done as required by the rules?"
+    },
+    "answer": {
+      "de": "Zur vollständigen Ausführung der Eine-Drehung-Strafe nach [Regel 44.2](rrs_44) fehlt noch eine Wende.",
+      "ru": "По [правилу 44.2 ](rrs_44) «Наказание в один оборот» включает один поворот оверштаг и один поворот фордевинд. В этом случае яхта сделала только поворот фордевинд. Следовательно, наказание не выполнено в соответствии с правилом.",
+      "en": "According to [rule 44.2](rrs_44), the penalty may be one turn including one tack and one gybe. In this case, only a gybe but not a tack has been done. Therefore the penalty was not taken in accordance with the rule."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Ja",
+        "ru": "Да",
+        "en": "Yes"
+      },
+      {
+        "de": "Nein",
+        "ru": "Нет",
+        "en": "No"
+      }
+    ]
+  },
+  {
+    "id": "l47",
+    "question": {
+      "de": "Darf das rote Boot so luven?",
+      "ru": "Имеет ли право Красная яхта приводиться таким образом?",
+      "en": "Do the rules permit Red to luff as shown in the film?"
+    },
+    "answer": {
+      "de": "Rot darf bis in den Wind luven. Rot ist nach der Wende vollständig auf einen Amwindkurs abgefallen und besitzt deshalb Wegerecht nach [Regel 11](rrs_11). Dieses Wegerecht schließt ein Luven bis in den Wind ein, sofern es nicht so plötzlich und stark erfolgt, dass Blau nicht folgen kann, was einer Verletzung von [Regel 16](rrs_16) gleichkäme. [Regel 17](rrs_17) kommt hier nicht zum Tragen.",
+      "ru": "Красная яхта имеет право менять курс, (приводиться), вплоть до положения левентик. После того, как она закончит поворот оверштаг, она имеет все права по [правилу 11](rrs_11). Это значит, что Синяя должна сторониться. Если Красная изменит курс, то по [правилу 16](rrs_16) она должна дать Синей место, чтобы сторониться. [Правило 17](rrs_17) не применяется.",
+      "en": "The red boat is allowed to change the course until head to wind. After completing her tack, Red had all the rights of [rule 11](rrs_11), i.e. Red has the right to luff, unless her luff is so hard, that Blue is not able to keep clear ([rule 16](rrs_16)). [Rule 17](rrs_17) does not apply."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Ja",
+        "ru": "Да",
+        "en": "Yes"
+      },
+      {
+        "de": "Nein",
+        "ru": "Нет",
+        "en": "No"
+      }
+    ]
+  },
+  {
+    "id": "l48",
+    "question": {
+      "de": "Hat Blau seine Strafdrehung regelkonform ausgeführt?",
+      "ru": "Выполнила ли яхта наказание в соответствии с правилами?",
+      "en": "Has the penalty been done as required by the rules?"
+    },
+    "answer": {
+      "de": "Zur vollständigen Ausführung der Eine-Drehung-Strafe nach [Regel 44.2](rrs_44) fehlt noch eine Wende.",
+      "ru": "По [правилу 44.2 ](rrs_44) «Наказание в один оборот» включает один поворот оверштаг и один поворот фордевинд. В этом случае яхта сделала только поворот фордевинд. Следовательно, наказание не выполнено в соответствии с правилом.",
+      "en": "In accordance with [rule 44.2](rrs_44), the penalty may be one turn including one tack and one gybe. In this case, only a gybe but not a tack has been done. Therefore the penalty was not taken in accordance with the rule."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Ja",
+        "ru": "Да",
+        "en": "Yes"
+      },
+      {
+        "de": "Nein",
+        "ru": "Нет",
+        "en": "No"
+      }
+    ]
+  },
+  {
+    "id": "l49",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Какая яхта имеет право дороги?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Da beide auf gleichem Schlag mit Überlappung segeln, hat das Leeboot Rot nach [Regel 11](rrs_11) Wegerecht.",
+      "ru": "Обе яхты на одном галсе и связаны, следовательно, применяется [правило 11](rrs_11) и Красная (подветренная) имеет право дороги.",
+      "en": "Both boats are on the same tack and overlapped. Therefore [rule 11](rrs_11) applies and Red - the leeward boat - has right of way."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l50",
+    "question": {
+      "de": "Rot protestiert nach Zieldurchgang gegen Blau. Entscheidung?",
+      "ru": "Красная яхта подала протест на Синюю, после того как Синяя финишировала. Ваше решение?",
+      "en": "Blue is protested by Red after Blue has finished. Decide!"
+    },
+    "answer": {
+      "de": "Da Blau noch nicht klar von der Ziellinie ist, befindet es sich noch in der Wettfahrt und hat gegen [Regel 10](rrs_10) verstoßen, da es sich von Rot nicht freigehalten hat. Es ist zu bestrafen. Wäre Blau bereits klar von der Ziellinie hätte es zusätzlich gegen [Regel 23.1](rrs_23) verstoßen und wäre wegen dieser Regel bestraft worden.",
+      "ru": "Синяя яхта не освободила финишную линию, значит, она еще в [гонке](rrs_def_racing) и нарушила [правило 10](rrs_10). Следует наказать Синюю яхту. Если бы Синяя освободила финишную линию, то она бы была уже не в [гонке](rrs_def_racing) и её следовало бы наказать за нарушение [правила 24.1](rrs_24)",
+      "en": "Blue has not cleared the finish line and is therefore still [_racing_](rrs_def_racing). Thus, she will be penalized for infringing [rule 10](rrs_10). If Blue *had* cleared the finish line, and was no longer racing, she would be penalized for infringing [rule 23.1](rrs_23)."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Blau wird nicht bestraft",
+        "ru": "Не наказывать Синюю яхту",
+        "en": "Blue will not be penalized"
+      },
+      {
+        "de": "Blau wird bestraft",
+        "ru": "Наказать Синюю яхту",
+        "en": "Blue will be penalized"
+      }
+    ]
+  },
+  {
+    "id": "l51",
+    "question": {
+      "de": "Hat das rote Boot den Rundungsfehler wieder gut gemacht?",
+      "ru": "Исправила ли Красная яхта свою ошибку?",
+      "en": "Has the red boat corrected her error?"
+    },
+    "answer": {
+      "de": "Die gezeigte Wiedergutmachung reicht. Zieht man nämlich die in [Definition \"Absegeln der Bahn\"](rrs_def_course) beschriebene Schnur, die die Spur des Bootes bedeutet, nach der gezeigten Rundung straff, so würde diese Schnur die Boje wie vorgeschrieben auf der Backbordseite berühren.",
+      "ru": "Да. Красная яхта исправила свою ошибку в соответствии с [правилом 28](rrs_28). «Веревочка», представляющая путь яхты, если её натянуть, будет касаться знака со стороны левого борта, как и предписано.",
+      "en": "Yes. Red has corrected her error in accordance with [definition sail the course](rrs_def_course). The string representing her track will touch the mark on Red's required port-tack side, when it is pulled tight."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Ja",
+        "ru": "Да",
+        "en": "Yes"
+      },
+      {
+        "de": "Nein",
+        "ru": "Нет",
+        "en": "No"
+      }
+    ]
+  },
+  {
+    "id": "l52",
+    "question": {
+      "de": "Welches Boot sollte eine Strafe annehmen oder wird im Fall eines gültigen Protestes bestraft?",
+      "ru": "Какая яхта будет наказана по действительному протесту?",
+      "en": "Which boat should take a penalty or will be penalized in case of a valid protest?"
+    },
+    "answer": {
+      "de": "Rot verstößt gegen [Regel 10](rrs_10) und sollte eineStrafe annehmen oder würde in einem gültigen Protest bestraft. Rot hat sich als Boot auf Backbordschlag (Wind von Bb) nicht nach [Regel 10](rrs_10) von Blau freigehalten hat. Blau hat (allerdings sehr spät) noch versucht auszuweichen, was zur Schadenverringerung geführt hat. Blau hat nicht gegen [Regel 14](rrs_14) verstoßen.",
+      "ru": "Красная яхта, на левом галсе, нарушила [правило 10](rrs_10), значит, она должна быть наказана. Синяя яхта пыталась избежать столкновения, следовательно, она не нарушила [правило 14](rrs_14).",
+      "en": "Red, on port tack, has infringed [rule 10](rrs_10) (Boats on opposite tacks) and should take a penalty or will be penalized in a valid protest. Blue tried to avoid a collision (also very late) and thus did not infringe [rule 14](rrs_14)."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l53",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Какая яхта имеет право дороги?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Da auf entgegengesetztem Schlag segeln, hat Blau auf Steuerbordschlag (wind von Stb) nach [Regel 10](rrs_10) Wegerecht.",
+      "ru": "Яхты на разных галсах, следовательно, применяется [правило 10](rrs_10), и Синяя (правого галса) имеет право дороги.",
+      "en": "The boats are on opposite tacks. Therefore [rule 10](rrs_10) applies and the blue boat (on starboard tack) has right of way."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l54",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Какая яхта имеет право дороги?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Obwohl Blau als Frühstarter umdrehen muss und beim Zurückfahren nach [Regel 21.1](rrs_21) allen anderen Booten ausweichen muss, stehen ihm alle Rechte zu, solange es nicht umdreht. Blau hat also, da es auf Steuerbordschlag (Wind von Stb) segelt, Wegerecht vor Rot, das auf Backbordschlag (Wind von Bb) segelt, nach [Regel 10](rrs_10).",
+      "ru": "Синяя яхта находилась на стороне дистанции в момент сигнала «Старт», но не повернула назад. Поэтому она сохраняет все свои права, как яхта, имеющая право дороги. Яхты на разных галсах, следовательно, применяется [правило 10](rrs_10), и Красная (левого галса) должна сторониться. Как только Синяя повернет к стартовой линии, она должна уступать дорогу яхтам, стартовавшим правильно ([правило 22.1](rrs_22)).",
+      "en": "The blue boat was on the course side of the starting line at her starting signal but has not begun to turn back. Therefore she has all rights of a boat that is not turning back and the red boat must keep clear in accordance with [rule 10](rrs_10) (boats on opposite tacks). From the moment Blue turns back however, she has to keep clear of all correct starters in accordance with [rule 21.1](rrs_21)."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l55",
+    "question": {
+      "de": "Hat Blau seine Strafdrehung regelkonform ausgeführt?",
+      "ru": "Выполнила ли яхта наказание в соответствии с правилами?",
+      "en": "Has the penalty been done as required by the rules?"
+    },
+    "answer": {
+      "de": "Die zur vollständigen Ausführung der Eine-Drehung-Strafe nach [Regel 44.2](rrs_44) vorgeschriebene Drehung einschließlich einer Wenden und Halse vor erneutem Durchsegeln der Ziellinie ist erfüllt.",
+      "ru": "По [правилу 44.2](rrs_44) «Наказание в один оборот» включает один поворот оверштаг и один поворот фордевинд. В этом случае яхта сделала один поворот фордевинд и один поворот оверштаг. Следовательно, наказание выполнено в соответствии с правилом.",
+      "en": "In accordance with [rule 44.2](rrs_44), the penalty may be one turn including one tack and one gybe before finishing. Therefore the penalty was taken in accordance with the rule."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Ja",
+        "ru": "Да",
+        "en": "Yes"
+      },
+      {
+        "de": "Nein",
+        "ru": "Нет",
+        "en": "No"
+      }
+    ]
+  },
+  {
+    "id": "l56",
+    "question": {
+      "de": "Hat Blau seine Strafdrehung regelkonform ausgeführt?",
+      "ru": "Выполнила ли яхта наказание в соответствии с правилами?",
+      "en": "Has the penalty been done as required by the rules?"
+    },
+    "answer": {
+      "de": "Die zur vollständigen Ausführung der Eine-Drehung-Strafe nach [Regel 44.2](rrs_44) vorgeschriebene Drehung einschließlich einer Wenden und Halse ist erfüllt. Das nochmalige Umsegeln der Bahnmarke ist dabei nicht notwendig, aber auch nicht regelwidrig.",
+      "ru": "По [правилу 44.2](rrs_44) «Наказание в один оборот» включает один поворот оверштаг и один поворот фордевинд. Следовательно, наказание выполнено в соответствии с правилом. Повторного огибания знака не требуется, но оно не противоречит правилам.",
+      "en": "In accordance with [rule 44.2](rrs_44), the penalty may be one turn including one tack and one gybe. Therefore the penalty was taken in accordance with the rule. Rerounding the mark was not necessary but not against the rule."
+    },
+    "answerOpt": 0,
+    "options": [
+      {
+        "de": "Ja",
+        "ru": "Да",
+        "en": "Yes"
+      },
+      {
+        "de": "Nein",
+        "ru": "Нет",
+        "en": "No"
+      }
+    ]
+  },
+  {
+    "id": "l57",
+    "question": {
+      "de": "Welches Boot hat Wegerecht?",
+      "ru": "Какая яхта имеет право дороги?",
+      "en": "Which boat has right of way?"
+    },
+    "answer": {
+      "de": "Nach [Regel 21.3](rrs_21) muss sich ein Boot, das durch Backhalten eines Segels rückwärts segelt, von einem Boot freihalten, das dies nicht tut. Also hat Blau Wegerecht.",
+      "ru": "По [правилу 22.3](rrs_22), яхта, движущаяся задним ходом в результате вынесения паруса на ветер должна сторониться яхты, не делающей этого. Значит, Синяя имеет право дороги.",
+      "en": "Under [rule 21.3](rrs_21), a boat that is moving astern by backing a sail has to keep clear of a boat that is not. Thus Blue has right of way."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l58",
+    "question": {
+      "de": "Welches Boot ist im Ziel voraus?",
+      "ru": "Какая яхта финишировала первой?",
+      "en": "Which boat finishes first of these two?"
+    },
+    "answer": {
+      "de": "Ein Boot ist durchs Ziel, wenn der erste Teil des Rumpfes durchs Ziel ist. Der Spinnaker zählt nicht, egal ob in normaler Lage oder nicht. Deshalb ist Blau nach Definition [Zieldurchgang](rrs_def_finish) zuerst im Ziel.",
+      "ru": "Когда Красная яхта пересекла финишную линию, её спинакер не был в нормальном положении. Поэтому первой частью ее корпуса или оборудования в нормальном положении был ее нос. Спинакер Синей яхты находится в нормальном положении, значит, она первой пересекла финишную линию в соответствии с определением «_[Финиш](rrs_def_finish)_».",
+      "en": "A Boat finishes, when the first part of her hull crosses the finishing line and thus Blue finishes before Red in accordance with the definition [_Finish_](rrs_def_finish)."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l59",
+    "question": {
+      "de": "Welches Boot muss nachgeben?",
+      "ru": "Какая яхта должна уступить дорогу?",
+      "en": "Which boat has to give way here?"
+    },
+    "answer": {
+      "de": "Rot ruft Raum zum Wenden. Es sind alle Vorbedingungen von [Regel 20.1](rrs_20) erfüllt. Deshalb muss Blau nachgeben und Rot die Möglichkeit zur ungehinderten Wende nach [Regel 20.2(2)](rrs_20) geben.",
+      "ru": "Красная яхта сделала оклик, требуя место для поворота. Все условия [правила 20.1](rrs_20) выполнены. Значит, Синяя должна дать место для поворота оверштаг по [правилу 20.2(2)](rrs_20).",
+      "en": "Red hails for room to tack. All pre-conditions of [rule 20.1](rrs_20) have been met. Therefore Blue must give Red room to tack as outlined in [rule 20.2(2)](rrs_20)."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Rot muss nachgeben und abbremsen",
+        "ru": "Красная должна уступить дорогу",
+        "en": "Red must give way"
+      },
+      {
+        "de": "Blau muss nachgeben und wenden",
+        "ru": "Синяя должна дать место для поворота",
+        "en": "Blue must give way by tacking",
+        "ru_short": "Синяя уступает место"
+      }
+    ]
+  },
+  {
+    "id": "l60",
+    "question": {
+      "de": "Welches Boot sollte eine Strafe annehmen oder wird im Fall eines gültigen Protestes bestraft?",
+      "ru": "Какая яхта будет наказана по действительному протесту?",
+      "en": "Which boat should take a penalty or will be penalized in case of a valid protest?"
+    },
+    "answer": {
+      "de": "Während der ganzen Zeit ist Blau auf Kollisionskurs zu rot und muss sich wegen [Regel 10](rrs_10) freihalten. Als Rot seinen Kurs Richtung Startlinie noch vor dem Startsignal ändert, hat Blau die Möglichkeit darauf mit einer Wende zu reagieren, tut aber nichts dergleichen. Deshalb verstößt Blau gegen [Regel 10](rrs_10) und sollte eineStrafe annehmen oder würde in einem gültigen Protest bestraft. Rot verletzt [Regel 16.1 ](rrs_16) noch nicht.",
+      "ru": "Синяя яхта находится на курсе, ведущем к столкновению с Красной, и поэтому должна сторониться по [правилу 10](rrs_10), как яхта левого галса. До сигнала «Старт», Красная изменяет свой курс в направлении к стартовой линии, и Синяя еще имеет возможность сторониться, сделав поворот оверштаг. Но она не делает этого, значит, Синяя нарушила [правило 10](rrs_10) и будет наказана. Красная яхта не нарушила [правило 16.1](rrs_16), так как она давала Синей место, чтобы сторониться.",
+      "en": "Blue is on a collision course with Red and must keep clear in accordance with [rule 10](rrs_10) (boats on opposite tacks). Just before the starting signal, Red changes course towards the starting line, at which point Blue is still able to keep clear by tacking, but Blue does not do so. Therefore Blue infringes [rule 10](rrs_10) and should take a penalty or will be penalized in a valid protest. Red does not infringe [rules 16.1](rrs_16): Red is OK under 16.1 since her course change left Blue room to keep clear by tacking."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      },
+      {
+        "de": "Keines der beiden Boote",
+        "ru": "Никакая",
+        "en": "Neither boat will be penalized"
+      }
+    ]
+  },
+  {
+    "id": "l61",
+    "question": {
+      "de": "Welches Boot sollte eine Strafe annehmen oder wird im Fall eines gültigen Protestes bestraft?",
+      "ru": "Какая яхта будет наказана по действительному протесту?",
+      "en": "Which boat should take a penalty or will be penalized in case of a valid protest?"
+    },
+    "answer": {
+      "de": "Rot ist ausweichpflichtig nach [Regel 10](rrs_10) und passiert vor Blau, das abfällt. Dieses Abfallen von Blau war aber wohl nicht notwendig, sicher nicht in dieser sehr krassen Art. Deshalb ist von einem korrekten Verhalten von Rot auszugehen. Siehe hierzu auch [Case 50](case_50). Es ist allerdings sehr riskant von Rot, so knapp vor dem Bug eines Wegerechtboots zu passieren.",
+      "ru": "Красная яхта сторониться по [правилу 10](rrs_10) и старается пройти по носу у Синей. Синяя уваливается, но, как здесь видно, в этом нет необходимости, особенно так резко. Следовательно, курс Красной яхты не нарушает правила, и никто не будет наказан. Но Красная сильно рискует, проходя так близко по носу у Синей. См. также [Case 50](case_50).",
+      "en": "Red must keep clear in accordance with [rule 10](rrs_10) (boats on opposite tacks) and passes in front of the Blue. Blue bears away. But there seems to be no need for taking avoiding action, especially not in this hard way. Therefore Red's course was acceptable, the protest will be refused, and no boat will be penalized. See also [Case 50](case_50). But Red (port) is taking a great risk by crossing so close in front of Blue (on starboard tack)."
+    },
+    "answerOpt": 2,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      },
+      {
+        "de": "Keines der beiden Boot",
+        "ru": "Никакая",
+        "en": "Neither boat will be penalized"
+      }
+    ]
+  },
+  {
+    "id": "l62",
+    "question": {
+      "de": "Welches Boot verletzt eine Regel und sollte eine Strafe annehmen oder wird im Fall eines gültigen Protestes bestraft?",
+      "ru": "Какая яхта будет наказана по действительному протесту?",
+      "en": "Which boat should take a penalty or will be penalized in case of a valid protest?"
+    },
+    "answer": {
+      "de": "Da beide auf entgegengesetztem Schlag segeln, verletzt Blau, das auf Backbordschlag (Wind von Bb) segelt, [Regel 10](rrs_10) und sollte eine Strafe annehmen oder wird im Fall eines gültigen Protestes bestraft. [Regel 12](rrs_12) ist nicht auf Boote auf entgegengesetztem Schlag nicht anwendbar!",
+      "ru": "Яхты на разных галсах, следовательно, применяется [правило 10](rrs_10) и Синяя (левого галса) должна быть наказана. [Правило 12](rrs_12) не применяется.",
+      "en": "The boats are on opposite tacks. Thus [rule 10](rrs_10) applies and Blue (the port tack boat) infringed that rule and should take a penalty or will be penalized in case of a valid protest. [Rule 12](rrs_12) does not apply."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l63",
+    "question": {
+      "de": "Welches Boot hat eine Regel verletzt?",
+      "ru": "Какая яхта нарушила правила?",
+      "en": "Which boat infringes a rule?"
+    },
+    "answer": {
+      "de": "Das blaue Luvboot muss sich zunächst nach [Regel 11](rrs_11) und Definition [Freihalten](rrs_def_keepclear) vom roten Leeboot so freihalten, dass dieses seinen Kurs ändern kann, ohne sofort das Luvboot zu berühren. Die zum Abfallen notwendige Halse führte zur Berührung und zu einer Änderung der Wegerechtsregel (Von [Regel 11](rrs_11) nach [Regel 10](rrs_10)) nicht zu einer Änderung des Wegerechts. (Rot hat vor und nach der Halse Wegerecht und keine wesentliche Kursänderung vorgenommen und Blau müsste sich freihalten.) Deshalb ist Blau wegen Verstoßes gegen [Regel 11](rrs_11) und/oder [Regel 10](rrs_10) zu bestrafen. Es gibt keine Regel die von Rot verlangt, keine Halse durchzuführen auch wenn dies zur Fortsetzung des Kurses nicht notwendig ist. Rots Verhalten ist regelkonform, aber nicht die feine englische Art. [Regel 15](rrs_15) ist nicht anwendbar.",
+      "ru": "Синяя яхта, как наветренная, должна сторониться по [правилу 11](rrs_11) и определению «_[Сторониться](rrs_def_keepclear)_». Красная, подветренная, имеет право дороги. Синяя, наветренная, должна так сторониться, чтобы подветренная яхта (Красная) могла изменить свой курс в любом направлении без немедленного касания наветренной яхты. Сделав поворот фордевинд, который являлся следствием уваливания, Красная сохраняет право дороги (теперь это [правило 10](rrs_10)), а Синяя по-прежнему должна сторониться. Не сделав, этого, она нарушила правила. Конечно, Красная яхта все делает по правилам. Но неожиданная «переброска» грота застала Синюю яхту врасплох, и, если это не вызвано необходимостью изменения курса, то не делает чести Красной. [Правило 15](rrs_15) в этой ситуации не применяется.",
+      "en": "Blue, the windward boat, must keep clear in accordance with [rule 11](rrs_11) and definition [_Keep Clear_](rrs_def_keepclear). Red, the leeward boat, must be able to change her course in both directions without immediately making contact with the windward boat. The gybe, a necessary result of Red's bearing away, immediately causes contact between the two mainsails and does not change the right of way (only the rule changes from [rule 11](rrs_11) to [rule 10](rrs_10)). Therefore Blue infringed [rule 11](rrs_11) and [rule 10](rrs_10) and will be penalized. (Even if the gybe is not necessary for bearing away, Red is right of way boat before and after the gybe and the blue boat has to keep clear all the time and there is no rule that prohibits Red from gybing without changing course.) Red's action is within the rules, but will not win Red many friends among his fellow competitors. [Rule 15](rrs_15) is not applicable."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "l64",
+    "question": {
+      "de": "Welches Boot sollte eine Strafe annehmen oder wird im Fall eines gültigen Protestes bestraft?",
+      "ru": "Какая яхта будет наказана по действительному протесту?",
+      "en": "Which boat should take a penalty or will be penalized in case of a valid protest?"
+    },
+    "answer": {
+      "de": "Da beide zum Zeitpunkt des Vorfalls auf gleichem Schlag mit Überlappung segeln, verletzt Blau, das Luvboot, [Regel 11](rrs_11) und sollte eine Strafe annehmen oder wird im Fall eines gültigen Protests bestraft. [Regel 12](rrs_12) ist nicht anwendbar und [Regel 15](rrs_15) wurde von Rot nicht verletzt, da Blau nach Herstellung der Überlappung ausreichend Raum und Zeit hatte den Weg für Rot frei zu machen!",
+      "ru": "Обе яхты на одном галсе и связаны, следовательно, применяется [правило 11](rrs_11) и Красная (подветренная) имеет право дороги. Синяя нарушила [правило 11](rrs_11) и будет наказана. [Правило 15](rrs_15) не применяется, так как первоначальный момент уже прошёл.",
+      "en": "The boats are overlapped on the same tack. Thus [rule 11](rrs_11) applies and Blue (the windward boat) break this rule and should take a penalty or will be penalized in case of a valid protest. [Rule 12](rrs_12) does not apply and [rule 15](rrs_15) no longer applies."
+    },
+    "answerOpt": 1,
+    "options": [
+      {
+        "de": "Rot",
+        "ru": "Красная",
+        "en": "Red"
+      },
+      {
+        "de": "Blau",
+        "ru": "Синяя",
+        "en": "Blue"
+      }
+    ]
+  }
+]
