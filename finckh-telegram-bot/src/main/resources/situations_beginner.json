@@ -1008,7 +1008,7 @@
     },
     "answer": {
       "de": "Zur vollständigen Ausführung der Eine-Drehung-Strafe nach [Regel 44.2](rrs_44) genügt eine Drehung mit einer Wende und einer Halse, wie hier geschehen.",
-      "ru": "По [правилу 44.2 ](rrs_44) «Наказание в один оборот» включает один поворот оверштаг и один поворот фордевинд. В этом случае яхта сделала один поворот оверштаг и один поворот фордевинд. Следовательно, наказание выполнено в соответствии с правилом.",
+      "ru": "По [правилу 44.2](rrs_44) «Наказание в один оборот» включает один поворот оверштаг и один поворот фордевинд. В этом случае яхта сделала один поворот оверштаг и один поворот фордевинд. Следовательно, наказание выполнено в соответствии с правилом.",
       "en": "According to [rule 44.2](rrs_44), the penalty may be one turn including one tack and one gybe. In this case, Blue has done one tack and one gybe. Therefore the penalty was taken in accordance with the rule."
     },
     "answerOpt": 0,
@@ -1190,7 +1190,7 @@
     },
     "answer": {
       "de": "Zur vollständigen Ausführung der Eine-Drehung-Strafe nach [Regel 44.2](rrs_44) fehlt noch eine Wende.",
-      "ru": "По [правилу 44.2 ](rrs_44) «Наказание в один оборот» включает один поворот оверштаг и один поворот фордевинд. В этом случае яхта сделала только поворот фордевинд. Следовательно, наказание не выполнено в соответствии с правилом.",
+      "ru": "По [правилу 44.2](rrs_44) «Наказание в один оборот» включает один поворот оверштаг и один поворот фордевинд. В этом случае яхта сделала только поворот фордевинд. Следовательно, наказание не выполнено в соответствии с правилом.",
       "en": "According to [rule 44.2](rrs_44), the penalty may be one turn including one tack and one gybe. In this case, only a gybe but not a tack has been done. Therefore the penalty was not taken in accordance with the rule."
     },
     "answerOpt": 1,
@@ -1242,7 +1242,7 @@
     },
     "answer": {
       "de": "Zur vollständigen Ausführung der Eine-Drehung-Strafe nach [Regel 44.2](rrs_44) fehlt noch eine Wende.",
-      "ru": "По [правилу 44.2 ](rrs_44) «Наказание в один оборот» включает один поворот оверштаг и один поворот фордевинд. В этом случае яхта сделала только поворот фордевинд. Следовательно, наказание не выполнено в соответствии с правилом.",
+      "ru": "По [правилу 44.2](rrs_44) «Наказание в один оборот» включает один поворот оверштаг и один поворот фордевинд. В этом случае яхта сделала только поворот фордевинд. Следовательно, наказание не выполнено в соответствии с правилом.",
       "en": "In accordance with [rule 44.2](rrs_44), the penalty may be one turn including one tack and one gybe. In this case, only a gybe but not a tack has been done. Therefore the penalty was not taken in accordance with the rule."
     },
     "answerOpt": 1,
@@ -1554,7 +1554,7 @@
       "en": "Which boat should take a penalty or will be penalized in case of a valid protest?"
     },
     "answer": {
-      "de": "Während der ganzen Zeit ist Blau auf Kollisionskurs zu rot und muss sich wegen [Regel 10](rrs_10) freihalten. Als Rot seinen Kurs Richtung Startlinie noch vor dem Startsignal ändert, hat Blau die Möglichkeit darauf mit einer Wende zu reagieren, tut aber nichts dergleichen. Deshalb verstößt Blau gegen [Regel 10](rrs_10) und sollte eineStrafe annehmen oder würde in einem gültigen Protest bestraft. Rot verletzt [Regel 16.1 ](rrs_16) noch nicht.",
+      "de": "Während der ganzen Zeit ist Blau auf Kollisionskurs zu rot und muss sich wegen [Regel 10](rrs_10) freihalten. Als Rot seinen Kurs Richtung Startlinie noch vor dem Startsignal ändert, hat Blau die Möglichkeit darauf mit einer Wende zu reagieren, tut aber nichts dergleichen. Deshalb verstößt Blau gegen [Regel 10](rrs_10) und sollte eineStrafe annehmen oder würde in einem gültigen Protest bestraft. Rot verletzt [Regel 16.1](rrs_16) noch nicht.",
       "ru": "Синяя яхта находится на курсе, ведущем к столкновению с Красной, и поэтому должна сторониться по [правилу 10](rrs_10), как яхта левого галса. До сигнала «Старт», Красная изменяет свой курс в направлении к стартовой линии, и Синяя еще имеет возможность сторониться, сделав поворот оверштаг. Но она не делает этого, значит, Синяя нарушила [правило 10](rrs_10) и будет наказана. Красная яхта не нарушила [правило 16.1](rrs_16), так как она давала Синей место, чтобы сторониться.",
       "en": "Blue is on a collision course with Red and must keep clear in accordance with [rule 10](rrs_10) (boats on opposite tacks). Just before the starting signal, Red changes course towards the starting line, at which point Blue is still able to keep clear by tacking, but Blue does not do so. Therefore Blue infringes [rule 10](rrs_10) and should take a penalty or will be penalized in a valid protest. Red does not infringe [rules 16.1](rrs_16): Red is OK under 16.1 since her course change left Blue room to keep clear by tacking."
     },
