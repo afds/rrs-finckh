@@ -3,8 +3,8 @@
     "id": "m01",
     "question": {
       "de": "Ist die Wende von Blau zu knapp?",
-      "ru": "Синяя повернула очень близко к Красной?",
-      "en": "Is Blue tacking too close to red?"
+      "ru": "Синяя делает поворот слишком близко к Красной?",
+      "en": "Is Blue tacking too close to Red?"
     },
     "answer": {
       "de": "Blau muss sich wegen [Regel 13](rrs_13) von Rot freihalten, bis es auf einen Amwindkurs abgefallen ist. Dies ist gerade erst im letzten Teilbild der Fall. Aber auch dann muss es dem Roten Boot wegen [Regel 15](rrs_15) anfangs Raum zum Freihalten geben. Dies tut Blau nicht, denn Rot muss bereits vor dem Ende der Wende auf die neue Situation reagieren um nicht eine Berührung zu riskieren. Blau hat ohne Not die Wende zu knapp bei Rot gemacht.",
@@ -30,7 +30,7 @@
     "question": {
       "de": "Darf Rot zwischen Grün und Blau durchfahren?",
       "ru": "Имеет ли право Красная яхта пройти между Синей и Зелёной?",
-      "en": "Does Red has the right to pass between Blue and Green?"
+      "en": "Does Red have the right to pass between Blue and Green?"
     },
     "answer": {
       "de": "Ja. Blau ist für Rot und Grün [Hindernis](rrs_def_obstruction), da es gegenüber beiden Wegerecht hat. Rot darf zwischendurch fahren, da Grün ab dem Zeitpunkt der Herstellung der [Überlappung](rrs_def_overlapt) mit Rot Raum geben kann und muss um Rot dazwischen passieren zu lassen. Siehe [Regel 19.2(b)](rrs_19).",
@@ -86,7 +86,7 @@
     },
     "answer": {
       "de": "Rot stellt zwar von klar achteraus die Überlappung her, gibt aber dann Blau genügend Raum um sich gemäß [Regel 15](rrs_15) auf die neue Situation des ausweichpflichtigen Bootes einzustellen. Blau tut nichts und ist deshalb für die Berührung nach [Regel 11](rrs_11) zu bestrafen.",
-      "ru": "Синяя. Красная яхта установила связанность из положения чисто позади и в первоначальный момент предоставила место, чтобы Синяя могла уступить, как предписывает [правило 15](rrs_15). Синяя яхта имеет достаточно места и времени, чтобы изменить ситуацию, но ничего не делает. Значит, она нарушила [правило 11](rrs_11), так как не сторонилась подветренной яхты",
+      "ru": "Синяя. Красная яхта установила связанность из положения чисто позади и в первоначальный момент предоставила место, чтобы Синяя могла уступить, как предписывает [правило 15](rrs_15). Синяя яхта имеет достаточно места и времени, чтобы изменить ситуацию, но ничего не делает. Значит, она нарушила [правило 11](rrs_11), так как не сторонилась подветренной яхты.",
       "en": "Blue. Red establishes an overlap from clear astern but initially gives Blue room to keep clear as required by [rule 15](rrs_15). Blue has enough room and time to adjust to the new situation, but she takes no avoiding action. Therefore Blue is infringing [rule 11](rrs_11) (boats on the same tack, overlapped) because she has not kept clear of the leeward boat."
     },
     "answerOpt": 1,
@@ -235,11 +235,11 @@
     "question": {
       "de": "Darf Rot zwischen Blau und Grün hinein- und durchfahren?",
       "ru": "Имеет ли право Красная яхта пройти между Синей и Зелёной?",
-      "en": "Does Red has the right to pass between Blue and Green here?"
+      "en": "Does Red have the right to pass between Blue and Green here?"
     },
     "answer": {
       "de": "Rot darf zwischendurch fahren, da es mit Wind von Stb gegenüber beiden Booten mit Wind von Bb wegen [Regel 10](rrs_10) Wegerecht besitzt. Grün und Blau müssen dem auf Steuerbordschlag segelnden Rot ausweichen. Siehe auch im Casebook [Case 23](case_23).",
-      "ru": "Да. Красная яхта имеет право на проход между Синей и Зелёной, потому что имеет право дороги по [правилу 10](rrs_10) (правый галс). Зелёная и Синяя яхты должны сторониться. См. также [Случай 23](case_23)",
+      "ru": "Да. Красная яхта имеет право на проход между Синей и Зелёной, потому что имеет право дороги по [правилу 10](rrs_10) (правый галс). Зелёная и Синяя яхты должны сторониться. См. также [Случай 23](case_23).",
       "en": "Yes. Red is allowed to pass between Blue and Green, because she has right of way over both boats under [rule 10](rrs_10) (boats on opposite tacks). Green and Blue must keep clear. See also World Sailing [Case 23](case_23)."
     },
     "answerOpt": 0,
@@ -259,9 +259,9 @@
   {
     "id": "m10",
     "question": {
-      "de": "Welches Boot muss sich freihalten?",
+      "de": "Muss sich Blau freihalten?",
       "ru": "Синяя яхта должна сторониться?",
-      "en": "Does Blue has to keep clear?"
+      "en": "Does Blue have to keep clear?"
     },
     "answer": {
       "de": "Obwohl Rot die Überlappung von klar achteraus hergestellt hat und deshalb wegen [Regel 17](rrs_17) nicht höher als seinen richtigen Kurs segeln darf, ist trotzdem [Regel 11](rrs_11) gültig und das blaue Luvboot muss sich vom Leeboot freihalten. Siehe auch [Case 07](case_07).",
@@ -271,12 +271,12 @@
     "answerOpt": 1,
     "options": [
       {
-        "de": "Rot",
+        "de": "Nein",
         "ru": "Нет",
         "en": "No"
       },
       {
-        "de": "Blau",
+        "de": "Ja",
         "ru": "Да",
         "en": "Yes"
       }
@@ -317,7 +317,7 @@
     },
     "answer": {
       "de": "Das Grüne Boot ist Hindernis, da es wegen [Regel 12](rrs_12) bzw [Regel 11](rrs_11) vor beiden Booten Wegerecht hat, da es klar voraus bzw. Leeboot ist. Es gilt deshalb [Regel 19.2(b)](rrs_19) und das außen liegende rote Boot muss dem innen liegenden blauen Boot Raum zum Passieren gewähren.",
-      "ru": "Зеленая яхта является препятствием, так как Красная и Синяя должны сторониться ее по [правилам 12](rrs_12) и [11](rrs_11). Поэтому применяется [правило 19.2(b)](rrs_19) и наружная яхта (Красная) должна дать внутренней яхте (Синей) место чтобы пройти препятствие (Зеленую яхту)",
+      "ru": "Зеленая яхта является препятствием, так как Красная и Синяя должны сторониться ее по [правилам 12](rrs_12) и [11](rrs_11). Поэтому применяется [правило 19.2(b)](rrs_19) и наружная яхта (Красная) должна дать внутренней яхте (Синей) место, чтобы пройти препятствие (Зеленую яхту).",
       "en": "The green boat is an obstruction, because both Red and Blue must keep clear of Green under [rule 11](rrs_11) and [rule 12](rrs_12). Therefore [rule 19.2(b)](rrs_19) applies and the outside boat (Red) shall give the inside boat (Blue) room to pass between Red and the obstruction (Green)."
     },
     "answerOpt": 0,
@@ -339,7 +339,7 @@
     "question": {
       "de": "Darf Rot zwischen Grün und Blau hinein und hindurch fahren?",
       "ru": "Имеет ли право Красная яхта пройти между Синей и Зелёной?",
-      "en": "Does Red has the right to pass between Blue and Green?"
+      "en": "Does Red have the right to pass between Blue and Green?"
     },
     "answer": {
       "de": "Rot darf zwischendurch fahren, da Grün nach Herstellung der [Überlappung](rrs_def_overlapt) durch Rot in der Lage ist durch Luven den Raum zum Passieren zwischen Grün und Blau zu geben. Es gilt [Regel 19.2(b)](rrs_19). Blau gilt als [Hindernis](rrs_def_obstruction) für Rot und Grün, da es gegenüber beiden Wegerecht hat. Rot muss Grün gemäß [Regel 15](rrs_15) anfangs Raum zum freihalten geben.",
@@ -521,7 +521,7 @@
       {
         "de": "Blaues Boot wird disqualifiziert",
         "ru": "Дисквалифицировать только Синюю яхту",
-        "en": "Only Blue will bedisqualified",
+        "en": "Only Blue will be disqualified",
         "ru_short": "Только Синяя DSQ"
       },
       {
@@ -627,7 +627,7 @@
     },
     "answer": {
       "de": "Nachdem Blau die Ziellinie vollständig durchsegelt hat, ist es nicht länger in der Wettfahrt und [Regel 23.1](rrs_23) erhält Gültigkeit. Dadurch dass Blau seinen Kurs ändert, ist Rot gezwungen seinen Kurs zu ändern um sich frei zu halten. [Regel 23.1](rrs_23) verlangt aber von Blau , ein in der Wettfahrt befindliches Boot nicht zu behindern, sofern dies vernünftigerweise möglich ist. Hätte Blau einige Sekunden seinen Kurs beibehalten bevor es abgefallen ist, wäre es zu keiner Behinderung gekommen. Deshalb verletzt Blau [Regel 23.1](rrs_23) und ist zu bestrafen.",
-      "ru": "Освободив финишную линию, Синяя яхта уже не находится в [гонке](rrs_def_racing), и поэтому начинает применяется [правило 23.1](rrs_23). Изменив курс, Синяя помешала Красной яхте, которая вынуждена изменить свой курс, чтобы сторониться Синей. [Правило 23.1](rrs_23) предписывает Синей яхте не мешать яхтам, которые в гонке, если это возможно. Если бы Синяя сохраняла свой курс после финиша, что для неё легко было сделать, то она не помешала бы Красной. Следовательно, Синяя нарушила [правило 23.1](rrs_23) и должна быть дисквалифицирована.",
+      "ru": "Освободив финишную линию, Синяя яхта уже не находится в [гонке](rrs_def_racing), и поэтому начинает применяться [правило 23.1](rrs_23). Изменив курс, Синяя помешала Красной яхте, которая вынуждена изменить свой курс, чтобы сторониться Синей. [Правило 23.1](rrs_23) предписывает Синей яхте не мешать яхтам, которые в гонке, если это разумно возможно. Если бы Синяя сохраняла свой курс после финиша, что для неё было легко сделать, то она не помешала бы Красной. Следовательно, Синяя нарушила [правило 23.1](rrs_23) и должна быть дисквалифицирована.",
       "en": "Having cleared the finish line, Blue is no longer [_racing_](rrs_def_racing) and [rule 23.1](rrs_23) begins to apply to her at this point. By changing course as she does, Blue interferes with Red who must change course to keep clear. [Rule 23.1](rrs_23) requires Blue *not* to interfere with a boat still [_racing_](rrs_def_racing), if this is reasonably possible. If Blue had held her course for a few more seconds before heading off to pick up her lunch, she would not have interfered with Red. So, not interfering with Red was very easily possible for Blue. She therefore broke [rule 23.1](rrs_23) and should be penalized."
     },
     "answerOpt": 1,
@@ -706,7 +706,7 @@
   {
     "id": "m25",
     "question": {
-      "de": "Welches Bot verletzt hier eine Regel?",
+      "de": "Welches Boot verletzt hier eine Regel?",
       "ru": "Какая яхта нарушила правила?",
       "en": "Which boat infringes a rule?"
     },
@@ -765,7 +765,7 @@
     "answer": {
       "de": "Blau hat als Boot auf Steuerbordschlag (Wind von Stb) keinerlei Verpflichtung bezüglich seines Kurses. Es darf nur wegen [Regel 16](rrs_16) den Kurs nicht so plötzlich und scharf ändern, dass Rot dieser Kursänderung nicht in guter Seemannschaft folgen kann. Das Luven von Blau ist so rechtzeitig und moderat erfolgt, dass Rot darauf hätte reagieren können. Da es das nicht getan hat, hat Rot [Regel 10](rrs_10) verletzt und sollte eine Strafe annehmen oder wird im Fall eines gültigen Protestes bestraft.",
       "ru": "Синяя яхта, на правом галсе, не имеет ограничений по своему курсу. Только [правило 16](rrs_16) требует от неё в случае изменения курса предоставить место другой яхте, чтобы сторониться в соответствии с хорошей морской практикой. Синяя приводилась медленно и задолго до столкновения, и Красная имела место, чтобы сторониться, но не предприняла никаких действий. Значит, Красная нарушила [правило 10](rrs_10) и должна быть наказана.",
-      "en": "Blue, on starboard-tack, is not restricted in her course. Only [rule 16](rrs_16) limits Blue, requiring him to change course such that the other boat has room to keep clear in a seamanlike manner. Blue luffed up moderately and well before the collision, and the red boat had room to keep clear but took no avoiding action. Therefore Red infringed [rule 10](rrs_10) and and should take a penalty or will be penalized in case of a valid protest."
+      "en": "Blue, on starboard-tack, is not restricted in her course. Only [rule 16](rrs_16) limits Blue, requiring him to change course such that the other boat has room to keep clear in a seamanlike manner. Blue luffed up moderately and well before the collision, and the red boat had room to keep clear but took no avoiding action. Therefore Red infringed [rule 10](rrs_10) and should take a penalty or will be penalized in case of a valid protest."
     },
     "answerOpt": 0,
     "options": [
@@ -843,7 +843,7 @@
   {
     "id": "m30",
     "question": {
-      "de": "Welches Boot sollte eine Strafe annehmen oder wird im Fall eines gültigen Protestes zu bestraft?",
+      "de": "Welches Boot sollte eine Strafe annehmen oder wird im Fall eines gültigen Protestes bestraft?",
       "ru": "Какая яхта будет наказана по действительному протесту?",
       "en": "Which boat should take a penalty or will be penalized in a valid protest?"
     },
@@ -875,8 +875,8 @@
     },
     "answer": {
       "de": "Zunächst verletzt Blau [Regel 10](rrs_10) , weil es sich als auf Backbordschlag (Wind von Bb) segelndes Boot nicht freihält. Rot macht im letzten Moment ein Ausweichmanöver um den Schaden zu minimieren und seiner Verpflichtung nach [Regel 14](rrs_14) nachzukommen. Es verletzt dabei [Regel 13](rrs_13) und kann auch die Berührung nicht mehr verhindern. Es wurde zu dieser Regelverletzung aber von Blau gezwungen und ist deshalb nach [Regel 43](rrs_43) entlastet. Nur Blau wird bestraft.",
-      "ru": "Во первых, Синяя (на левом галсе) нарушила [правило 10](rrs_10), потому что не сторонилась. Затем, Красная привелась, чтобы уменьшить повреждение и в соответствии с [правилом 14](rrs_14). Выполняя поворот оверштаг, она нарушила [правило 13](rrs_13) и, произошел контакт с Синей яхтой. Синяя вынудила Красную нарушить правила, и поэтому Красная будет оправдана по [правилу 64.1(а)](rrs_64). Только Синяя яхта будет наказана.",
-      "en": "First the blue boat (port tack) infringes [rule 10](rrs_10), because she does not keep clear. Then Red luffs up to minimze the damage and to comply with [rule 14](rrs_14). Thereby she infringes [rule 13](rrs_13) and makes contact with the other boat. But because Red was compelled by Blue to infringe the rule, she will be exonerated from this infringement in accordance with [rule 43](rrs_43). Only Blue will be penalized."
+      "ru": "Во-первых, Синяя (на левом галсе) нарушила [правило 10](rrs_10), потому что не сторонилась. Затем Красная привелась, чтобы уменьшить повреждение и соблюсти [правило 14](rrs_14). Выполняя поворот оверштаг, она нарушила [правило 13](rrs_13) и произошёл контакт с Синей яхтой. Поскольку Красную вынудила Синяя, она оправдывается по [правилу 43.1(b)](rrs_43). Только Синяя яхта будет наказана.",
+      "en": "First the blue boat (port tack) infringes [rule 10](rrs_10), because she does not keep clear. Then Red luffs up to minimize the damage and to comply with [rule 14](rrs_14). Thereby she infringes [rule 13](rrs_13) and makes contact with the other boat. But because Red was compelled by Blue to infringe the rule, she will be exonerated from this infringement in accordance with [rule 43](rrs_43). Only Blue will be penalized."
     },
     "answerOpt": 0,
     "options": [
@@ -991,7 +991,7 @@
     "answer": {
       "de": "Blau muss sich zunächst nach [Regel 11](rrs_11) und dann nach [Regel 10](rrs_10) [freihalten](rrs_def_keepclear). Das Wegerecht ändert sich nicht und Rot muss seinen Kurs ändern können ohne sofort das Luvboot zu berühren. Deshalb ist Blau wegen Verstoßes gegen [Regel 10](rrs_10) zu bestrafen. Siehe auch [Team-Race-Callbook Call G2](g02).",
       "ru": "Синяя яхта должна [сторониться](rrs_def_keepclear) Красной, вначале по [правилу 11](rrs_11), а затем по [правилу 10](rrs_10), то есть право дороги не меняется. В дополнение, Красная, как подветренная, должна иметь возможность изменить курс в любом направлении без немедленного контакта с наветренней яхтой. Следовательно Синяя яхта нарушила [правило 10](rrs_10) и будет наказана. См. [Team-Race-Call G2](g02).",
-      "en": "First [rule 11](rrs_11) and than [rule 10](rrs_1o) requires Blues to [_keep clear_](rrs_def_keepclear) of Red. There is no change in the right of way and additional Red, the leeward boat, must be able to change her course in both directions without immediately making contact with the windward boat. Therefore Blue infringed [rule 10](rrs_10) and will be penalized. See [Team-Race-Call G2](g02)."
+      "en": "First [rule 11](rrs_11) and then [rule 10](rrs_10) require Blue to [_keep clear_](rrs_def_keepclear) of Red. There is no change in the right of way and Red, the leeward boat, must be able to change her course in both directions without immediately making contact with the windward boat. Therefore Blue infringed [rule 10](rrs_10) and will be penalized. See [Team-Race-Call G2](g02)."
     },
     "answerOpt": 1,
     "options": [
@@ -1010,7 +1010,7 @@
   {
     "id": "m36",
     "question": {
-      "de": "Hat Rot die Überlappuung vor Erreichen der Zone hergestellt?",
+      "de": "Hat Rot die Überlappung vor Erreichen der Zone hergestellt?",
       "ru": "Красная яхта связалась до зоны?",
       "en": "Does Red become overlapped before the zone?"
     },
@@ -1358,7 +1358,7 @@
     "answer": {
       "de": "Blau verletzt [Regel 11](rrs_11) und sollte eine Strafe annehmen oder wird im Fall eines gültigen Protestes bestraft. Blau hatte zunächst Raum zum Freihalten, hat es aber versäumt auszuweichen. Als Rot langsam näher kam, war dieser Platz dann nicht mehr da. (Quelle: Matchrace-Call-Book Call A1 (Ump09))",
       "ru": "Синяя яхта будет наказана за нарушение [правила 11](rrs_11). Вначале Синяя яхта имела достаточно места, чтобы уступить, но так как яхты продолжали медленно сходиться, то потом места не осталось. Синяя яхта сама лишила себя возможности уступить. См. [Call A1(UMP 09)](u09).",
-      "en": "Blue breake [rule 11](rrs_11) and should take a penalty or will be penalized in case of a valid protest. Blue at first had enough room to keep clear, but failed to change course to keep clear. As Red and Blue slowly continued to converge, there was no more room for Blue to keep clear but this was Blue's own fault. See also Call A1 (UMP 09)."
+      "en": "Blue breaks [rule 11](rrs_11) and should take a penalty or will be penalized in case of a valid protest. Blue at first had enough room to keep clear, but failed to change course to keep clear. As Red and Blue slowly continued to converge, there was no more room for Blue to keep clear but this was Blue's own fault. See also Call A1 (UMP 09)."
     },
     "answerOpt": 1,
     "options": [
@@ -1382,9 +1382,9 @@
       "en": "Does Blue have to keep clear after Red's gybe?"
     },
     "answer": {
-      "de": "Für Boote, die nicht überlappen, gelten an einem Hindernis vorallem die [Regel 12](rrs_12) oder [10](rrs_10), so dass sich nach der Halse Blau, das auf Backbordschlag (Wind von Bb) segelt, nach [Regel 10](rrs_10) von Rot, das auf Steuerborschlag (Wind von Stb) segelt, freihalten muss. Siehe auch [Case 30](case_30).",
-      "ru": "Яхты не связаны у препятствия, значит применяется [правило 10](rrs_10). Синяя яхта, на левом галсе, должна уступать Красной яхте, которая на правом галсе. См. Случай [30](case_30).",
-      "en": "If boats are not overlapped at an obstruction, [rule12](rrs_12) or [10](rrs_10) apply. Thus, after the gybe, [rule10](rrs_10) applies, and that requires Blue (port) to keep clear of Red (starboard). See also [Case 30](case_30)."
+      "de": "Für nicht überlappende Boote gelten an einem Hindernis die [Regel 12](rrs_12) oder [10](rrs_10). Nach der Halse muss sich Blau auf Backbordschlag nach [Regel 10](rrs_10) vom auf Steuerbordschlag segelnden Rot freihalten. Siehe auch [Case 30](case_30).",
+      "ru": "Яхты не связаны у препятствия, поэтому применяются [правило 12](rrs_12) или [правило 10](rrs_10). После поворота фордевинд действует [правило 10](rrs_10): Синяя на левом галсе должна уступать Красной на правом галсе. См. [Случай 30](case_30).",
+      "en": "When boats are not overlapped at an obstruction, rules [12](rrs_12) or [10](rrs_10) govern. After the gybe, [rule 10](rrs_10) applies and requires Blue (port) to keep clear of Red (starboard). See also [Case 30](case_30)."
     },
     "answerOpt": 0,
     "options": [
@@ -1518,7 +1518,7 @@
     },
     "answer": {
       "de": "Die vollständige Ausführung der Zwei-Drehungen-Strafe nach [Regel 44.2](rrs_44) einschließlich 2 Wenden und 2 Halsen wurde erfüllt. Es ist dabei ohne Belang, dass die Entlastung vor dem Startsignal beginnt.",
-      "ru": "Да. По [правилу 44.2](rrs_44) наказанием в два оборота является два поворота оверштаг и два поворота фордевинд в одном направлении. Не имеет значение, что выполнение наказание началось до стартового сигнала.",
+      "ru": "Да. По [правилу 44.2](rrs_44) наказанием в два оборота является два поворота оверштаг и два поворота фордевинд в одном направлении. Не имеет значение, что выполнение наказания началось до стартового сигнала.",
       "en": "Yes. According to [rule 44.2](rrs_44) the penalty was two turns including two tacks and two gybes in the same direction. It does not matter that the penalty was begun before the starting signal."
     },
     "answerOpt": 0,
@@ -1627,7 +1627,7 @@
     },
     "answer": {
       "de": "Für die nach [Regel 44.1](rrs_44) für eine Wegerechtsverletzung vorgesehene Entlastungsstrafe nach [Regel 44.2](rrs_44) von zwei Drehungen einschließlich zweier Wenden und Halsen in die gleiche Richtung fehlen noch zwei Wenden. Außerdem wurden die Drehungen nicht im gleichen Drehsinn durchgeführt.",
-      "ru": "Нет. По [правилу 44.2](rrs_44) наказанием в два оборота является два поворота оверштаг и два поворота фордевинд в одном направлении. В этом случае были выполнены 2 поворота, включающих только 2 фордевинда, и она не были сделаны в одном направлении. Потому выполненное наказание не соответствует требованием правил.",
+      "ru": "Нет. По [правилу 44.2](rrs_44) наказанием в два оборота является два поворота оверштаг и два поворота фордевинд в одном направлении. В этом случае были выполнены два поворота, включающие только два фордевинда, и они не были сделаны в одном направлении. Поэтому выполненное наказание не соответствует требованиям правил.",
       "en": "No. According to [rule 44.2](rrs_44) the penalty is two turns - including two tacks and two gybes in the same direction. In this case there were two turns including only two gybes and the turns were not in the same direction. Therefore the penalty done has not satisfied the requirements of the rules."
     },
     "answerOpt": 1,
@@ -1652,9 +1652,9 @@
       "en": "Blue protests Red with valid requirements. Decide!"
     },
     "answer": {
-      "de": "Als Blau seine Strafdrehungen ausführt wendet Rot auf es zu. Blau ändert seinen Kurs um auszuweichen, Rot muss seinen Kurs nicht ändern. Damit verletzt Blau nicht [Regel 21.2. ](rrs_22) Rot hat nicht [Regel 23.2](rrs_23) verletzt da sowohl der Amwindkurs mit Wind von Bb als auch der Amwindkurs mit Wind von Stb ein richtiger Kurs sind. Kein Boot wird disqualifiziert.",
-      "ru": "Во время выполнения наказания Синей яхтой, Красная сделала поворот в ее направлении. Синяя изменила свой курс, а Красная сохранила свой курс. Поэтому Синяя яхта не нарушила [правило 22.2](rrs_22). Красная не нарушила [правило 24.2](rrs_23), изменив курс в сторону Синей, так как это был ее возможный надлежащий курс. Поэтому ни одна из яхт не нарушила правила.",
-      "en": "While doing her penalty turns Red tacked toward Blue. Blue changed her course and Red does not change her course. Therefore Blue does not infringe [rule 21.2](rrs_21). Red did not infringe [rule 23.2](rrs_23) when she tacked toward Blue because this is one possible proper course for Red. Therefore no boat infrniged a rule."
+      "de": "Rot führt eine Strafe aus und muss sich nach [Regel 21.2](rrs_21) von Booten freihalten, die keine Strafe ausführen. Blau segelt seinen richtigen Kurs und verletzt [Regel 23.2](rrs_23) nicht (Nichtbehindern eines Bootes, das eine Strafe ausführt). Blau weicht aus, Rot lässt Raum, es kommt zu keiner Berührung – kein Boot verletzt eine Regel.",
+      "ru": "Красная выполняет наказание и должна сторониться яхт, не выполняющих наказание, по [правилу 21.2](rrs_21). Синяя идёт своим надлежащим курсом и не нарушает [правило 23.2](rrs_23) (не мешать яхте, исполняющей наказание). Синяя уваливается, Красная оставляет место, контакта нет — ни одна яхта не нарушила правила.",
+      "en": "Red is taking a penalty and must keep clear of boats not taking a penalty under [rule 21.2](rrs_21). Blue is sailing her proper course and does not infringe [rule 23.2](rrs_23) (interfering with a boat taking a penalty). Blue bears away, Red leaves room and there is no contact, so neither boat breaks a rule."
     },
     "answerOpt": 2,
     "options": [
@@ -1742,7 +1742,7 @@
     "answer": {
       "de": "Nein. Das blaue Boot stellt von [klar achteraus](rrs_def_overlapt) die [Überlappung](rrs_def_overlapt) in Lee in einem Abstand geringer als zwei Rumpflängen her und hat damit nach [Regel 17](rrs_17) kein Recht über den [richtigen Kurs](rrs_def_propercourse) zu segeln. Nachdem Blau aber vor Herstellung der Überlappung platt vor Wind segelte, hat es keine guten Gründe, plötzlich diesen raumeren Kurs als seinen richtigen Kurs zu erklären. Trotzdem muss sich auch Rot als Luvboot nach [Regel 11](rrs_11) freihalten. Dies ist ein Fall, wo beide Boote disqualifiziert werden können.",
       "ru": "Нет. Синяя яхта установила связанность из положения чисто позади. Поэтому применяется [правило 17](rrs_17) и Синяя не должна идти выше своего надлежащего курса. Т.к. Синяя шла курсом фордевинд, то нет никакой причины для нее изменять курс на бакштаг. Следовательно, Синяя нарушила [правило 17](rrs_17). Тем не менее, [правило 11](rrs_11) обязывает Красную яхту сторониться. Возможно, в этом случае, обе яхты будут наказаны.",
-      "en": "Blue establishes an [_overlap_](rrs_def_overlapt) from [_clear astern_](rrs_def_overlapt). Therefore [rule 17](rrs_17) applies and Blue shall not sail above her [_proper course_](rrs_def_propercourse). Because Blue has been sailing straight downwind, there is no reason for this sudden luff onto a reach. Therefore Blue has infringed [rule 17](rrs_12). Nevertheless [rule 11](rrs_11) applies and Red must keep clear. In this case it is possible that both boats will be penalized."
+      "en": "Blue establishes an [_overlap_](rrs_def_overlapt) from [_clear astern_](rrs_def_overlapt). Therefore [rule 17](rrs_17) applies and Blue shall not sail above her [_proper course_](rrs_def_propercourse). Because Blue has been sailing straight downwind, there is no reason for this sudden luff onto a reach. Therefore Blue has infringed [rule 17](rrs_17). Nevertheless [rule 11](rrs_11) applies and Red must keep clear. In this case it is possible that both boats will be penalized."
     },
     "answerOpt": 1,
     "options": [
@@ -1849,7 +1849,7 @@
   {
     "id": "m67",
     "question": {
-      "de": "Darf Blau hier so zu machen?",
+      "de": "Darf Blau hier so zumachen?",
       "ru": "Имеет ли право синяя \"закрыть окно\" таким образом?",
       "en": "Is Blue allowed to close the gap the way she does here?"
     },
@@ -1881,7 +1881,7 @@
     },
     "answer": {
       "de": "Das Grüne Boot ist Hindernis, da es wegen [Regel 10](rrs_10) vor beiden Booten Wegerecht hat. Es gilt deshalb [Regel 19.2(b)](rrs_19) und das außen liegende rote Boot muss dem innen liegenden blauen Boot Platz zum Passieren zwischen Grün und Rot gewähren.",
-      "ru": "Да. Зеленая является препятствием для Красной и Синей, так они должны сторониться ее по правилу [применяется10](rrs_10). Поэтому [правило 19.2(b)](rrs_10) и наружная яхта (Красная) должна дать место внутренней (Синей) для прохождения препятствия (Зеленой яхты).",
+      "ru": "Да. Зеленая является препятствием для Красной и Синей, так как обе должны сторониться ее по [правилу 10](rrs_10). Поэтому применяется [правило 19.2(b)](rrs_19), и наружная яхта (Красная) должна дать внутренней (Синей) место для прохождения препятствия (Зеленой).",
       "en": "Yes. The green boat is an obstruction, because both Red and Blue must keep clear of Green under [rule 10](rrs_10). Therefore [rule 19.2(b)](rrs_19) applies and the outside boat (Red) must give the inside boat (Blue) room to pass the obstruction (Green)."
     },
     "answerOpt": 0,
@@ -1907,19 +1907,19 @@
     },
     "answer": {
       "de": "Das auf Backbordschlag (Wind von Bb) segelnde rote Boot fällt ab, um Blau auszuweichen. Blau wendet so, dass Rot eine erneute Kursänderung vornehmen muss, bevor Blau wieder auf einen Amwindkurs abgefallen ist. Blau verletzt also [Regel 13](rrs_13) nicht aber [Regel 16.2](rrs_16) (Luven darf es). Der Protest ist berechtigt und führt zu einer Bestrafung von Blau.",
-      "ru": "Красная яхта, на левом галсе, уваливается, чтобы сторониться Синей. Синяя делает поворот оверштаг и вынуждает Красную изменить курс до того как Синяя легла на курс крутой бейдевинд, т.е. до того как Синяя закончила поворот оверштаг. Следовательно Синяя нарушила [правила 13](rrs_13), [15](rrs_15) и [16.2](rrs_16) и будет наказана.",
+      "ru": "Красная яхта, на левом галсе, уваливается, чтобы сторониться Синей. Синяя делает поворот оверштаг и вынуждает Красную изменить курс до того как Синяя легла на курс крутой бейдевинд, т.е. до окончания поворота. Синяя не нарушает [правило 16.2](rrs_16), так как не уваливается, но нарушает [правила 13](rrs_13) и [15](rrs_15) и будет наказана.",
       "en": "Red, on port tack, bears away to avoid Blue. Blue tacks and forces Red to change course again before Blue is close hauled, i.e. before Blue has completed her tack. Therefore Blue infringes [rule 13](rrs_13), [rule 15](rrs_15) but not [rule 16.2](rrs_16) (because blue is not bearing away) and will be penalized."
     },
     "answerOpt": 0,
     "options": [
       {
-        "de": "Ja",
-        "ru": "Да",
+        "de": "Blau wird bestraft",
+        "ru": "Синяя яхта будет наказана",
         "en": "Blue will be penalized"
       },
       {
-        "de": "Nein",
-        "ru": "Нет",
+        "de": "Blau wird nicht bestraft",
+        "ru": "Синяя яхта не будет наказана",
         "en": "Blue will not be penalized"
       }
     ]
@@ -1955,7 +1955,7 @@
     "question": {
       "de": "Welches Boot sollte eine Strafe annehmen oder wird im Fall eines gültigen Protestes bestraft?",
       "ru": "Какая яхта будет наказана?",
-      "en": "Which boat should take a peanlty or will be penalized in a valid protest?"
+      "en": "Which boat should take a penalty or will be penalized in a valid protest?"
     },
     "answer": {
       "de": "Blau erreicht zuerst die Zone ohne Überlappung zu Rot. Deshalb muss Rot sich nach [Regel 12](rrs_12) bzw. [11](rrs_11) freihalten und nach [Regel 18.2(a)(2)](rrs_18_2) [Bahnmarken-Raum](rrs_def_markroom) geben. Wenn Blau aber durch den Wind geht, erlischt ihr Anspruch auf Bahnmarken-Raum ([Regel 18.2(b)](rrs_18_2)) und das Wegerecht wechselt: zunächst gilt [Regel 13](rrs_13) und Blau muss sich freihalten, danach erhält sie mit [Regel 10](rrs_10) wieder Wegerecht. Blau hat so dicht vor Rot gewendet, dass Rot wahrscheinlich schon während der Wende ausweichen musste und sicher keine angemessene Möglichkeit hatte, nach der Wende freizuhalten. Blau verletzt damit voraussichtlich [Regel 13](rrs_13) und auf jeden Fall [Regel 15](rrs_15) und sollte eine Strafe nehmen oder wird im Protest bestraft. Siehe auch [Case 27](case_27).",
@@ -1991,7 +1991,7 @@
     "answer": {
       "de": "Blau verletzt [Regel 11](rrs_11) und sollte eine Strafe annehmen oder wird im Fall eines gültigen Protestes bestraft. Rot ändert den Kurs sanft und berürt dabei sofort Blau. Das Luvboot Blau hat sich also nach der Definition nicht [freigehalten](rrs_def_keepclear).",
       "ru": "Синяя нарушила [правило 11](rrs_11) и будет наказана. Когда Красная яхта изменила свой курс, она немедленно столкнулась с Синей (наветренной яхтой). Поэтому Синяя нарушила [правило 11](rrs_11). (см. также определение [_Сторониться_](rrs_def_keepclear))",
-      "en": "Blue infringed [rule 11](rrs_11) and and should take a penalty or will be penalized in case of a valid protest. When Red changed her course in a moderate way, she immediately made contact with Blue (the windward boat). Therefore Blue infringed [rule 11](rrs_11). (See also Definition [_Keep Clear_](rrs_def_keepclear))."
+      "en": "Blue infringed [rule 11](rrs_11) and should take a penalty or will be penalized in case of a valid protest. When Red changed her course in a moderate way, she immediately made contact with Blue (the windward boat). Therefore Blue infringed [rule 11](rrs_11). (See also Definition [_Keep Clear_](rrs_def_keepclear))."
     },
     "answerOpt": 1,
     "options": [
@@ -2016,7 +2016,7 @@
     },
     "answer": {
       "de": "Rot hat [Regel 30.1](rrs_30) (I-Flaggen-Regel) und, da es nicht gestartet ist, [Regel 28.1](rrs_28) (Absegeln der Bahn) verletzt und wird OCS (Siehe Anhang A [Regel A10](rrs_ap_a)) gewertet.",
-      "ru": "Красная яхта нарушила [правило 30.1](rrs_30) (Правило флаг \"I\") и [правило 28.1](rrs_28) (Прохождение дистанции) и поэтому получит очки OCS (см. [правило A10](rrs_ap_a)))",
+      "ru": "Красная яхта нарушила [правило 30.1](rrs_30) (Правило флаг \"I\") и [правило 28.1](rrs_28) (Прохождение дистанции) и поэтому получит очки OCS (см. [правило A10](rrs_ap_a)).",
       "en": "Red infringed [rule 30.1](rrs_30) (Round one end-Rule) and [rule 28.1](rrs_28) (Sailing the course) and shall be scored OCS (see [rule A10](rrs_ap_a))."
     },
     "answerOpt": 2,
@@ -2050,7 +2050,7 @@
     },
     "answer": {
       "de": "Rot hat [Regel 30.2](rrs_30) (Z-Flaggen-Regel) und, da es nicht gestartet ist, [Regel 28.1](rrs_28) (Absegeln der Bahn) verletzt und wird OCS (Siehe Anhang A [Regel A10](rrs_ap_a)) gewertet.",
-      "ru": "Красная яхта нарушила [правило 30.2](rrs_30) (Правило флаг \"Z\") и правило [28.1](rrs_28) (Прохождение дистанции) и поэтому получит очки OCS (см. [правило A10](rrs_ap_a))",
+      "ru": "Красная яхта нарушила [правило 30.2](rrs_30) (Правило флаг \"Z\") и правило [28.1](rrs_28) (Прохождение дистанции) и поэтому получит очки OCS (см. [правило A10](rrs_ap_a)).",
       "en": "Red infringed [rule 30.2](rrs_30) (Z-Flag-Rule) and [rule 28.1](rrs_28) (Sailing the course) and shall be scored OCS (see [rule A10](rrs_ap_a))."
     },
     "answerOpt": 2,
@@ -2123,7 +2123,7 @@
     "answer": {
       "de": "Rot hat seinen Startfehler wieder gut gemacht und wird mit der Zielplatzierung gewertet, sofern sie nicht aufgibt oder anderweitig bestraft wird.",
       "ru": "Красная яхта исправила свою ошибку на старте и поэтому получит очки согласно ее месту на финише.",
-      "en": "Red has corrected her starting error and willl be scored for her finishing place."
+      "en": "Red has corrected her starting error and will be scored for her finishing place."
     },
     "answerOpt": 0,
     "options": [
@@ -2228,7 +2228,7 @@
     "answer": {
       "de": "Rot, zunächst Klar achteraus wird überlappendes Leeboot in einem Abstand von weniger als zwei seiner Rumpflängen zum Luvboot Blau. Nun muss sich das Luvboot Blau wegen [Regel 11](rrs_11) vom Leeboot freihalten und das Leeboot Rot darf wegen [Regel 17](rrs_17) nicht höher als seinen richtigen Kurs segeln. Rot segelt nicht höher als seinen richtigen Kurs, es hatte diesen Kurs ja bereits lange vorher, muss aber zur Vermeidung einer Collision seinen Kurs ändern. Deshalb verletzt Blau [Regel 11](rrs_11). Siehe auch [Definition \"Freihalten\" ](rrs_def_keepclear).",
       "ru": "Красная устанавливает связанность с Синей на расстоянии двух длин корпусов. Правило 11 начинает применяться и Синяя (наветренная) должна сторониться. Также применяется [правило 17](rrs_17), и потому Красная не должна идти выше своего надлежащего курса. Красная продолжает идти этим курсом некоторое время и поэтому не идет выше своего надлежащего курса. Затем она вынуждена изменить свой курс, чтобы избежать Синюю. Поэтому Синяя яхта нарушила [правило 11](rrs_11). См. также определение [_сторониться_](rrs_def_keepclear).",
-      "en": "Red becomes overlapped with Blue within two of Red's hull lengths. Now [rule 11](rrs_11) begins to apply and Blue (windward) shall keep clear. Also [rule 17](rrs_17) applies, and therefore Red is not allowed tosail above her proper course. Red continues to sail the course she has been sailing for some time and thus does not sail above her proper course. In the end, she needs to change her course to avoid Blue. Therefore Blue infringes [rule 11](rrs_11). See also Definition [_Keep clear_](rrs_def_keepclear)."
+      "en": "Red becomes overlapped with Blue within two of Red's hull lengths. Now [rule 11](rrs_11) begins to apply and Blue (windward) shall keep clear. Also [rule 17](rrs_17) applies, and therefore Red is not allowed to sail above her proper course. Red continues to sail the course she has been sailing for some time and thus does not sail above her proper course. In the end, she needs to change her course to avoid Blue. Therefore Blue infringes [rule 11](rrs_11). See also Definition [_Keep clear_](rrs_def_keepclear)."
     },
     "answerOpt": 1,
     "options": [
@@ -2355,8 +2355,8 @@
     },
     "answer": {
       "de": "Blau sollte eine Strafe annehmen oder wird im Falle eines gültigen Protestes bestraft. Als Blau in die [Zone](rrs_def_zone) kommt, ist es [klar voraus](rrs_def_overlapt) und hat Wegerecht nach [Regel 12](rrs_12) und Anspruch auf [Bahnmarken-Raum](rrs_def_markroom) nach [Regel 18.2(b)](rrs_18_2). Blau segelt wesentlich weiter an der Bahnmarke vorbei, als es zum Runden benötigt. Bei Herstellung der Innenüberlappung hat Rot kein Recht auf [Bahnmarken-Raum](rrs_def_markroom) nach [Regel 18.2(c)](rrs_18_2) und muss sich nach [Regel 11](rrs_11) freihalten. Als Blau luvt, segelt er höher als seinen richtigen Kurs und gibt Rot keinen [Raum](rrs_def_markroom) zum [freihalten](rrs_def_keepclear), da Rot sonst die Bahnmarke berührt. Deshalb verletzt Blau [Regel 16.1](rrs_16). Von dieser Regelverletzung ist Blau nicht nach [Regel 43](rrs_43) entlastet, da es höher als seinen [richtigen Kurs](rrs_def_propercourse) und nicht mehr innerhalb des ihm zustehenden [Bahnmarken-Raums](rrs_def_markroom) segelt.",
-      "ru": "Синяя будет наказана. Синяя входит в [зону](rrs_def_zone) чисто впереди. Синяя должна сторониться (по [правилу 12](rrs_12)) и давать Синей [место-у-знака](rrs_def_markroom) (по [правилу 18.2(b)](rrs_18_2)). Синяя использует больше места, чем ей необходимо для огибания знака. Когда Красная устанавливает внутреннюю связанность, она не имеет право на [место-у-знака](rrs_def_markroom) ([правило 18.2(c)](rrs_18_2)) и должна [сторониться](rrs_def_keepclear) [(правило 11](rrs_11)). Когда Синяя приводиться она должна дать Красной место, чтобы сторониться ([правило 16.1](rrs_16)). Синяя не дала места Красной, чтобы сторониться, поэтому Красная не имела возможности привестись еще больше, не коснувшись знака. Синяя не будет оправдана по [правилу 21](rrs_21), потому что она не шла своим [надлежащим курсом](rrs_def_propercourse) и, следовательно, не идет в пределах своего [места-у-знака](rrs_def_markroom).",
-      "en": "Blue should take a penalty or will be penalized in case of a valid protest. When Blue reaches the [zone](rrs_def_zone) she is [clear ahead](rrs_def_overlapt). Red shall [keep clear](rrs_def_keepclear) ([rule 12](rrs_12)) and give [mark-room](rrs_def_markroom) ([rule 18.2(b)](rrs_18_2) to Blue. Blue takes more room as necessary ti round the mark. When Red establish an inside [overlap](rrs_def_overlapt), she is not entitled to [mark-room](rrs_def_markroom) ([rule 18.2(c)](rrs_18_2)) and has to [keep clear](rrs_def_keepclear) ([rule 11](rrs_11)). When Blue is luffing she has to give room for Red to keep clear ([rule 16.1](rrs_16)). Blue fails to give [room](rrs_def_room) to [keep clear](rrs_def_keepclear), because Red is not able to luff more, without touching the mark. Blue will not be exonerated by [rule 43](rrs_43), because she is not sailing her [proper course](rrs_def_propercourse) and therefore she is not sailing within [mark-room](rrs_def_markroom)."
+      "ru": "Синяя будет наказана. Синяя входит в [зону](rrs_def_zone) чисто впереди. Красная должна [сторониться](rrs_def_keepclear) по [правилу 12](rrs_12) и дать Синей [место-у-знака](rrs_def_markroom) по [правилу 18.2(b)](rrs_18_2). Синяя берёт больше места, чем нужно для огибания. Когда Красная устанавливает внутреннюю связанность, она не имеет права на [место-у-знака](rrs_def_markroom) ([правило 18.2(c)](rrs_18_2)) и должна [сторониться](rrs_def_keepclear) по [правилу 11](rrs_11). Когда Синяя приводится, она должна дать Красной место, чтобы сторониться ([правило 16.1](rrs_16)), но не даёт: Красная не может привестись больше, не коснувшись знака. Синяя не оправдывается по [правилу 43](rrs_43), потому что идёт выше своего [надлежащего курса](rrs_def_propercourse) и вне своего [места-у-знака](rrs_def_markroom).",
+      "en": "Blue should take a penalty or will be penalized in case of a valid protest. When Blue reaches the [zone](rrs_def_zone) she is [clear ahead](rrs_def_overlapt). Red shall [keep clear](rrs_def_keepclear) ([rule 12](rrs_12)) and give [mark-room](rrs_def_markroom) ([rule 18.2(b)](rrs_18_2)). Blue sails farther past the mark than necessary to round. When Red establishes an inside [overlap](rrs_def_overlapt), she is not entitled to [mark-room](rrs_def_markroom) ([rule 18.2(c)](rrs_18_2)) and must [keep clear](rrs_def_keepclear) ([rule 11](rrs_11)). When Blue luffs she must give Red room to keep clear ([rule 16.1](rrs_16)), but fails because Red cannot luff more without hitting the mark. Blue is not exonerated by [rule 43](rrs_43) because she is sailing above her [proper course](rrs_def_propercourse) and outside her [mark-room](rrs_def_markroom)."
     },
     "answerOpt": 1,
     "options": [
@@ -2377,7 +2377,7 @@
     "question": {
       "de": "Darf Blau diesen Kurs segeln?",
       "ru": "Имеет ли право Синяя яхта идти этим курсом?",
-      "en": "Is the Blues course complying with the rules?"
+      "en": "Is Blue's course complying with the rules?"
     },
     "answer": {
       "de": "Blau verstößt gegen [Regel 18.2(a)(1)](rrs_18_2). Bei Erreichen der [Zone](rrs_def_zone) besteht eine [Überlappung](rrs_def_overlapt) und Blau muss Rot [Bahnmarken-Raum](rrs_def_markroom) nach [Regel 18.2(a)(1)](rrs_18_2) geben. Da Blau Rot daran hindert, direkt zur Bahnmarke zu segeln, verletzt es diese Regel.",
@@ -2429,7 +2429,7 @@
     "question": {
       "de": "Welches Boot ist im Falle eines gültigen Protestes nach dieser leichten Berührung zu bestrafen?",
       "ru": "Какая яхта будет наказана в этом инциденте с легким касанием по действительному протесту?",
-      "en": "Which boat will be penalized after this littles contact in the case of a valid protest?"
+      "en": "Which boat will be penalized after this little contact in the case of a valid protest?"
     },
     "answer": {
       "de": "Blau ist zu bestrafen. Als Rot in die [Zone](rrs_def_zone) kommt, ist es [klar voraus](rrs_def_overlapt) und hat Wegerecht nach [Regel 12](rrs_12) und Anspruch auf [Bahnmarken-Raum](rrs_def_markroom) nach [Regel 18.2(a)(2)](rrs_18_2). Nach Herstellung der [Innenüberlappung](rrs_def_overlapt) muss Blau weiterhin [Bahnmarken-Raum](rrs_def_markroom) für Rot nach [Regel 18.2(a)](rrs_18_2) geben. Rot verletzt zwar [Regel 11](rrs_11). Da sein richtiger Kurs aber nahe zur Bahnmarke führt, segelt es innerhalb des ihm zustehenden Bahnmarken-Raums und wird nach [Regel 43.1(b)](rrs_43) entlastet. Blau ist wegen Verstoßes gegen [Regel 18.2(a)](rrs_18_2) zu bestrafen.",
