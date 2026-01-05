@@ -878,7 +878,7 @@
     "id": "s32",
     "question": {
       "de": "Welches Boot wird im Falle eines gültigen Protestes bestraft?",
-      "ru": "Какая яхта будет наказана пот действительному протесту?",
+      "ru": "Какая яхта будет наказана по действительному протесту?",
       "en": "Which boat will be penalized in a valid protest?"
     },
     "answer": {
