@@ -979,23 +979,22 @@
         "de": "Rot wird bestraft, Blau bekommt Wiedergutmachung",
         "ru": "Дисквалифицировать Красную и исправить результат Синей",
         "en": "Red disqualified, Blue is entitled to redress",
-        "de_short": "Rot DSQ, Blau Redress",
-        "en_short": "Red DSQ, Blue gets redress",
-        "ru_short": "Красная DSQ, Синей исправление"
+        "de_short": "Rot bestraft, Blau Wiedergutmachung",
+        "ru_short": "Дисквал. Красную, Синей исправление",
+        "en_short": "Red disqualified, Blue gets redress"
       },
       {
         "de": "Rot wird bestraft, für Blau keine Wiedergutmachung",
-        "ru": "Дисквалифицировать Красную яхту и не исправлять результат Синей",
+        "ru": "Дисквалифицировать Красную и не исправлять результат Синей",
         "en": "Red disqualified, No redress for Blue",
-        "de_short": "Rot DSQ, Blau kein Redress",
-        "en_short": "Red DSQ, no redress for Blue",
-        "ru_short": "Красная DSQ, Синей не исправлять"
+        "de_short": "Rot bestraft, Blau keine Wiedergutmachung",
+        "ru_short": "Дисквал. Красную, Синей не исправлять"
       },
       {
         "de": "Blau und Rot werden bestraft",
         "ru": "Дисквалифицировать Красную и Синюю яхты",
         "en": "Blue and Red disqualified",
-        "ru_short": "DSQ Красной и Синей"
+        "ru_short": "Дисквал. Красную и Синюю"
       }
     ]
   },
@@ -1541,8 +1540,7 @@
       {
         "de": "Blau muss nachgeben und wenden",
         "ru": "Синяя должна дать место для поворота",
-        "en": "Blue must give way by tacking",
-        "ru_short": "Синяя уступает место"
+        "en": "Blue must give way by tacking"
       }
     ]
   },
