@@ -384,16 +384,16 @@ export default function App() {
             <div className="panel__section">
               <div className="panel__title">Difficulty</div>
               <div className="chip-row">
-                {(['all', 'beginner', 'intermediate', 'advanced'] as const).map((d) => (
-                  <button
-                    key={d}
-                    className={clsx('chip', { active: difficulty === d })}
-                    onClick={() => updateParam('difficulty', d === 'all' ? null : d)}
-                  >
-                    {d === 'all' ? 'All' : DIFFICULTY_LABELS[d as Difficulty]}
-                  </button>
-                ))}
-              </div>
+              {(['all', 'beginner', 'intermediate', 'advanced'] as const).map((d) => (
+                <button
+                  key={d}
+                  className={clsx('chip', { active: difficulty === d })}
+                  onClick={() => updateParam('difficulty', d === 'all' ? null : d, true)}
+                >
+                  {d === 'all' ? 'All' : DIFFICULTY_LABELS[d as Difficulty]}
+                </button>
+              ))}
+            </div>
             </div>
 
             <div className="panel__section">
@@ -401,7 +401,7 @@ export default function App() {
               <div className="category-tree">
                 <button
                   className={clsx('category-button', { active: category === '' })}
-                  onClick={() => updateParam('category', null)}
+                  onClick={() => updateParam('category', null, true)}
                 >
                   <span>All categories</span>
                   <span className="count-pill">{situations.length}</span>
@@ -416,7 +416,7 @@ export default function App() {
                         <button
                           key={sub.id}
                           className={clsx('category-button', { active: category === sub.id })}
-                          onClick={() => updateParam('category', sub.id)}
+                          onClick={() => updateParam('category', sub.id, true)}
                         >
                           <span>{sub.name[lang] || sub.name.en}</span>
                           <span className="count-pill">{categoryCounts[sub.id] || 0}</span>
