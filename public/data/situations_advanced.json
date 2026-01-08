@@ -243,18 +243,6 @@
         "en": {
           "text": "Red shall keep clear, Blue has no obligations",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Rot freihalten, Blau keine",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "Red keep clear, Blue no duties",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Красная, Синяя без обязательств",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -269,18 +257,6 @@
         "en": {
           "text": "Blue shall not interfere, Red has no obligations",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Blau nicht behindern, Rot frei",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "Blue not interfere, Red free",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Синяя, Красная свободна",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -294,18 +270,6 @@
         },
         "en": {
           "text": "Red shall keep clear and Blue shall not interfere with Red",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Rot frei, Blau nicht behindern",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "Red clear, Blue not interfere",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Красная, Синяя не мешает",
           "lastModified": "2026-01-01T20:31:01Z"
         }
       }
@@ -803,14 +767,6 @@
         "en": {
           "text": "The Protest is valid and Blue disqualified",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Gültig, Blau disqualifiziert",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "Valid, Blue disqualified",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -824,18 +780,6 @@
         },
         "en": {
           "text": "The protest is invalid and will be closed",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Ungültig, abgewiesen",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "Invalid, closed",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Недействителен",
           "lastModified": "2026-01-01T20:31:01Z"
         }
       }
@@ -1913,10 +1857,6 @@
         "en": {
           "text": "Yes. Blue will be given redress",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Да. Исправлен",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -1930,18 +1870,6 @@
         },
         "en": {
           "text": "No. Blue will not be given redress",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Nein. Kein Redress",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "No. No redress",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Нет. Не исправлен",
           "lastModified": "2026-01-01T20:31:01Z"
         }
       }
@@ -2548,10 +2476,6 @@
         },
         "en": {
           "text": "Blue will be scored in front of Red",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "Blue scored in front of Red",
           "lastModified": "2026-01-01T20:31:01Z"
         }
       },
@@ -5113,10 +5037,6 @@
         "en": {
           "text": "Blue's",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Blau, Grün muss nachgeben",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -5130,10 +5050,6 @@
         },
         "en": {
           "text": "Green's",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Grün, Blau muss nachgeben",
           "lastModified": "2026-01-01T20:31:01Z"
         }
       }

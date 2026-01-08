@@ -291,18 +291,6 @@
         "en": {
           "text": "Green may establish an overlap to windward of Blue and is then entitled to room from Red",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Luv-Überlappung, Raum von Rot",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "Windward overlap, room from Red",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Наветр. связ., место от Красной",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -317,18 +305,6 @@
         "en": {
           "text": "Green may establish an overlap to leeward of Blue and is then entitled to room from Blue",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Lee-Überlappung, Raum von Blau",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "Leeward overlap, room from Blue",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Подв. связ., место от Синей",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -342,18 +318,6 @@
         },
         "en": {
           "text": "Green is not allowed to establish an overlap to Blue",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Keine Überlappung zu Blau",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "No overlap to Blue",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Нет связ. с Синей",
           "lastModified": "2026-01-01T20:31:01Z"
         }
       }
@@ -465,10 +429,6 @@
         "en": {
           "text": "Red disqualified",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Gültig, Rot bestraft",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -483,10 +443,6 @@
         "en": {
           "text": "Blue disqualified",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Gültig, Blau bestraft",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -500,14 +456,6 @@
         },
         "en": {
           "text": "The protest is invalid and will be disallowed",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "Invalid protest",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Недействителен",
           "lastModified": "2026-01-01T20:31:01Z"
         }
       }
@@ -991,18 +939,6 @@
         "en": {
           "text": "The Protest is valid and Red will be penalized",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Gültig, Rot bestraft",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "Valid, Red penalized",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Действителен, Красная DSQ",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -1016,18 +952,6 @@
         },
         "en": {
           "text": "The Protest is valid and Blue will be penalized",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Gültig, Blau bestraft",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "Valid, Blue penalized",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Действителен, Синяя DSQ",
           "lastModified": "2026-01-01T20:31:01Z"
         }
       },
@@ -1043,18 +967,6 @@
         "en": {
           "text": "The Protest is valid, but Blue can only be penalized if a protest lodged against Blue",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Gültig, Blau braucht Protest",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "Valid, Blue needs own protest",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Надо протестовать против Синей",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -1068,18 +980,6 @@
         },
         "en": {
           "text": "The protest is invalid and will be closed",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Ungültig, beendet",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "Invalid, closed",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Недействителен",
           "lastModified": "2026-01-01T20:31:01Z"
         }
       }
@@ -1191,14 +1091,6 @@
         "en": {
           "text": "The protest is valid and Red will be disqualified",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Gültig, Rot bestraft",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "Valid, Red penalized",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -1213,14 +1105,6 @@
         "en": {
           "text": "The protest is valid and Blue will be disqualified",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Gültig, Blau bestraft",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "Valid, Blue penalized",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -1234,18 +1118,6 @@
         },
         "en": {
           "text": "The protest is invalid and will be closed",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Ungültig, beendet",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "Invalid, closed",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Недействителен",
           "lastModified": "2026-01-01T20:31:01Z"
         }
       }
@@ -1295,10 +1167,6 @@
         "en": {
           "text": "Only Red will be disqualified",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Только Красная DSQ",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -1313,10 +1181,6 @@
         "en": {
           "text": "Only Blue will be disqualified",
           "lastModified": "2026-01-04T19:45:37Z"
-        },
-        "ru_short": {
-          "text": "Только Синяя DSQ",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -1331,10 +1195,6 @@
         "en": {
           "text": "No boat will be disqualified",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Никакая DSQ",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -1348,14 +1208,6 @@
         },
         "en": {
           "text": "Both boats will be disqualified",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Beide DSQ",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Обе DSQ",
           "lastModified": "2026-01-01T20:31:01Z"
         }
       }
@@ -1404,10 +1256,6 @@
         },
         "en": {
           "text": "Red will be disqualified",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Красная DSQ",
           "lastModified": "2026-01-01T20:31:01Z"
         }
       },
@@ -1595,10 +1443,6 @@
         "en": {
           "text": "Red boat will be penalized",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Красная DSQ",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -1612,10 +1456,6 @@
         },
         "en": {
           "text": "Blue boat will be penalized",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Синяя DSQ",
           "lastModified": "2026-01-01T20:31:01Z"
         }
       },
@@ -2051,10 +1891,6 @@
         "en": {
           "text": "Red will be penalized",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Красная DSQ",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -2068,10 +1904,6 @@
         },
         "en": {
           "text": "Blue will be penalized",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Синяя DSQ",
           "lastModified": "2026-01-01T20:31:01Z"
         }
       },
@@ -2210,10 +2042,6 @@
         },
         "en": {
           "text": "Only Red will be penalized",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Только Красная",
           "lastModified": "2026-01-01T20:31:01Z"
         }
       },
@@ -2738,18 +2566,6 @@
         },
         "en": {
           "text": "Yes (Blue sails a course permitted by the rules)",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Ja",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "Yes",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Да",
           "lastModified": "2026-01-01T20:31:01Z"
         }
       }
@@ -4971,18 +4787,6 @@
         "en": {
           "text": "OCS (On the course side of the starting line)",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "OCS",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "OCS",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "OCS",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       }
     ]
@@ -5045,14 +4849,6 @@
         "en": {
           "text": "ZFP (Finishing-Place + 20% - Z-Flag-Penalty)",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "ZFP",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "ZFP",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -5066,18 +4862,6 @@
         },
         "en": {
           "text": "OCS (On the course side of the starting line)",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "OCS",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "OCS",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "OCS",
           "lastModified": "2026-01-01T20:31:01Z"
         }
       }
@@ -5141,14 +4925,6 @@
         "en": {
           "text": "ZFP (Finishing-Place + 20% - Z-Flag-Penalty)",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "ZFP",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "ZFP",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -5162,18 +4938,6 @@
         },
         "en": {
           "text": "OCS (On the course side of the starting line)",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "OCS",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "OCS",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "OCS",
           "lastModified": "2026-01-01T20:31:01Z"
         }
       }
@@ -5251,18 +5015,6 @@
         "en": {
           "text": "OCS (On the course side of the starting line)",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "OCS",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "OCS",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "OCS",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       }
     ]
@@ -5325,18 +5077,6 @@
         "en": {
           "text": "DSQ (Disqualification excludable)",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "DSQ (streichbar)",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "DSQ (excludable)",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "DSQ (исключается)",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -5351,18 +5091,6 @@
         "en": {
           "text": "BFD (Black - Flag - Disqualification)",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "BFD (Black Flag)",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "BFD (Black Flag)",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "BFD (Черный флаг)",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -5376,18 +5104,6 @@
         },
         "en": {
           "text": "DNE (Disqualification not excludable)",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "DNE (nicht streichbar)",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "DNE (not excludable)",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "DNE (не исключается)",
           "lastModified": "2026-01-01T20:31:01Z"
         }
       }
@@ -5589,18 +5305,6 @@
         "en": {
           "text": "Red has right of way over both Blue and Green, and no other obligations",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Wegerecht über beide",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "Right of way over both",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Право дороги над обеими",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -5615,18 +5319,6 @@
         "en": {
           "text": "Red must give room to Green, but Blue must keep clear of Red",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Raum nur für Grün",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "Give room to Green only",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Место только для Зеленой",
-          "lastModified": "2026-01-01T20:31:01Z"
         }
       },
       {
@@ -5640,18 +5332,6 @@
         },
         "en": {
           "text": "Red must give room to both Green and Blue",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Raum für beide geben",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "en_short": {
-          "text": "Give room to both",
-          "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Место для обеих",
           "lastModified": "2026-01-01T20:31:01Z"
         }
       }

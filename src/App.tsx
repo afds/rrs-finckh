@@ -89,7 +89,6 @@ function getLocalizedText(entry: Record<string, LocalizedEntry>, lang: Language)
 
 function getOptionText(option: RawOption, lang: Language) {
   return (
-    option?.[`${lang}_short`] ||
     option?.[lang] ||
     option?.en ||
     option?.de ||
@@ -127,12 +126,18 @@ function normalizeSituations(
   index?: CategoryIndex,
 ): Situation[] {
   return raw.map((item) => {
+    const options = item.options.map((opt) =>
+      Object.fromEntries(
+        Object.entries(opt).filter(([key]) => !key.endsWith('_short')),
+      ),
+    ) as RawOption[]
     const subcategories = index?.situationToSub[item.id] ?? []
     const parentCategories = subcategories
       .map((subId) => index?.subMeta[subId]?.parentId)
       .filter(Boolean) as string[]
     return {
       ...item,
+      options,
       difficulty,
       subcategories,
       parentCategories,

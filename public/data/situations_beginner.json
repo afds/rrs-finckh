@@ -2337,18 +2337,6 @@
         "en": {
           "text": "Red disqualified, Blue is entitled to redress",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Rot bestraft, Blau Wiedergutmachung",
-          "lastModified": "2026-01-06T07:29:47Z"
-        },
-        "ru_short": {
-          "text": "Дисквал. Красную, Синей исправление",
-          "lastModified": "2026-01-06T07:29:47Z"
-        },
-        "en_short": {
-          "text": "Red disqualified, Blue gets redress",
-          "lastModified": "2026-01-06T07:29:47Z"
         }
       },
       {
@@ -2363,14 +2351,6 @@
         "en": {
           "text": "Red disqualified, No redress for Blue",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "de_short": {
-          "text": "Rot bestraft, Blau keine Wiedergutmachung",
-          "lastModified": "2026-01-06T07:29:47Z"
-        },
-        "ru_short": {
-          "text": "Дисквал. Красную, Синей не исправлять",
-          "lastModified": "2026-01-06T07:29:47Z"
         }
       },
       {
@@ -2385,10 +2365,6 @@
         "en": {
           "text": "Blue and Red disqualified",
           "lastModified": "2026-01-01T20:31:01Z"
-        },
-        "ru_short": {
-          "text": "Дисквал. Красную и Синюю",
-          "lastModified": "2026-01-06T07:29:47Z"
         }
       }
     ]
