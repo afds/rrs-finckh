@@ -17,3 +17,7 @@ Static review app for Racing Rules of Sailing situations. It loads the existing 
 - `vite.config.ts` sets `base` to `/rrs-finckh/` for GitHub Pages.
 - The included workflow `.github/workflows/deploy.yml` builds on pushes to `main` (and on manual dispatch), then deploys `dist/` to GitHub Pages using the official Pages action.
 - The app uses `HashRouter`, so no custom 404 handling is needed on Pages.
+
+## Local static preview notes
+- `npm run preview` will serve with the configured base path; open `/rrs-finckh/` on the preview server.
+- If you want to `npx serve dist` directly, build with a root base: `npm run build:local` (sets `BASE_PATH=/`), then run `npx serve dist` and open the root URL. The default build assumes it will be served from `/rrs-finckh/`.
