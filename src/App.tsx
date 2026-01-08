@@ -285,14 +285,14 @@ export default function App() {
   const ids = filtered.map((s) => s.id)
   const current = filtered.find((s) => s.id === selectedId) ?? null
 
-  function updateParam(key: string, value: string | null) {
+  function updateParam(key: string, value: string | null, preserveId = false) {
     const next = new URLSearchParams(searchParams)
     if (!value || value === 'all') {
       next.delete(key)
     } else {
       next.set(key, value)
     }
-    if (key !== 'id') {
+    if (key !== 'id' && !preserveId) {
       next.delete('id')
     }
     setSearchParams(next, { replace: true })
@@ -358,7 +358,7 @@ export default function App() {
               <button
                 key={l}
                 className={clsx('chip', { active: lang === l })}
-                onClick={() => updateParam('lang', l)}
+                onClick={() => updateParam('lang', l, true)}
               >
                 {LANG_LABELS[l]}
               </button>
