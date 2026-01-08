@@ -215,6 +215,8 @@ export default function App() {
   const [showFilters, setShowFilters] = useState(true)
   const cardRefs = useRef<Record<string, HTMLDivElement | null>>({})
   const listRef = useRef<HTMLDivElement | null>(null)
+  const questionVideoRef = useRef<HTMLVideoElement | null>(null)
+  const answerVideoRef = useRef<HTMLVideoElement | null>(null)
 
   const langParam = searchParams.get('lang')
   const lang: Language = langParam === 'de' || langParam === 'ru' ? langParam : 'en'
@@ -326,6 +328,12 @@ export default function App() {
       container.scrollTo({ top: Math.max(target, 0), behavior: 'smooth' })
     }
   }, [selectedId, filtered])
+
+  useEffect(() => {
+    // reset video refs when switching situations
+    questionVideoRef.current = null
+    answerVideoRef.current = null
+  }, [current?.id])
 
   const categoryCounts = useMemo(() => {
     const counts: Record<string, number> = {}
@@ -553,34 +561,54 @@ export default function App() {
                       Categories: {current.subcategories.length || '—'}
                     </span>
                   </div>
-                </div>
+              </div>
 
-                {(() => {
-                  const videos = [
-                    current.hasQuestionVideo
-                      ? { key: 'question', label: 'Question animation', src: asset(`media/${current.id}_question.mp4`) }
-                      : null,
-                    current.hasAnswerVideo
-                      ? { key: 'answer', label: 'Answer animation', src: asset(`media/${current.id}_answer.mp4`) }
-                      : null,
-                  ].filter(Boolean) as { key: string; label: string; src: string }[]
+              {(() => {
+                const videos = [
+                  current.hasQuestionVideo
+                    ? { key: 'question', label: 'Question animation', src: asset(`media/${current.id}_question.mp4`) }
+                    : null,
+                  current.hasAnswerVideo
+                    ? { key: 'answer', label: 'Answer animation', src: asset(`media/${current.id}_answer.mp4`) }
+                    : null,
+                ].filter(Boolean) as { key: string; label: string; src: string }[]
 
-                  if (videos.length === 0) return null
+                if (videos.length === 0) return null
 
-                  return (
-                    <div
-                      className="video-grid"
-                      style={{ gridTemplateColumns: `repeat(${videos.length}, minmax(0, 1fr))` }}
-                    >
-                      {videos.map((v) => (
-                        <div className="video-box" key={v.key}>
-                          <h4>{v.label}</h4>
-                          <video controls src={v.src} />
-                        </div>
-                      ))}
-                    </div>
-                  )
-                })()}
+                const handleSyncPlay = (from: 'question' | 'answer') => {
+                  const sourceRef = from === 'question' ? questionVideoRef : answerVideoRef
+                  const targetRef = from === 'question' ? answerVideoRef : questionVideoRef
+                  const source = sourceRef.current
+                  const target = targetRef.current
+                  if (source && target) {
+                    try {
+                      target.currentTime = source.currentTime
+                      void target.play()
+                    } catch {
+                      // ignore play issues (e.g., autoplay restrictions)
+                    }
+                  }
+                }
+
+                return (
+                  <div
+                    className="video-grid"
+                    style={{ gridTemplateColumns: `repeat(${videos.length}, minmax(0, 1fr))` }}
+                  >
+                    {videos.map((v) => (
+                      <div className="video-box" key={v.key}>
+                        <h4>{v.label}</h4>
+                        <video
+                          controls
+                          src={v.src}
+                          ref={v.key === 'question' ? questionVideoRef : answerVideoRef}
+                          onPlay={() => handleSyncPlay(v.key as 'question' | 'answer')}
+                        />
+                      </div>
+                    ))}
+                  </div>
+                )
+              })()}
 
                 <div className="markdown">
                   <ReactMarkdown remarkPlugins={[remarkGfm]}>
