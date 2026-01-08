@@ -214,6 +214,7 @@ export default function App() {
   const [error, setError] = useState<string | null>(null)
   const [showFilters, setShowFilters] = useState(true)
   const cardRefs = useRef<Record<string, HTMLDivElement | null>>({})
+  const listRef = useRef<HTMLDivElement | null>(null)
 
   const langParam = searchParams.get('lang')
   const lang: Language = langParam === 'de' || langParam === 'ru' ? langParam : 'en'
@@ -316,8 +317,13 @@ export default function App() {
   useEffect(() => {
     if (!selectedId) return
     const node = cardRefs.current[selectedId]
-    if (node) {
-      node.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    const container = listRef.current
+    if (node && container) {
+      const containerRect = container.getBoundingClientRect()
+      const nodeRect = node.getBoundingClientRect()
+      const nodeOffset = nodeRect.top - containerRect.top + container.scrollTop
+      const target = nodeOffset - container.clientHeight / 2 + node.clientHeight / 2
+      container.scrollTo({ top: Math.max(target, 0), behavior: 'smooth' })
     }
   }, [selectedId, filtered])
 
@@ -462,7 +468,7 @@ export default function App() {
                 <span className="pill">Issues: {issueIds.length}</span>
               </span>
             </div>
-            <div className="list">
+            <div className="list" ref={listRef}>
               {filtered.length === 0 && <div className="empty">No situations match the filters.</div>}
               {filtered.map((s) => {
                 const hasIssues = !s.hasQuestionVideo || !s.hasAnswerVideo || s.subcategories.length === 0
