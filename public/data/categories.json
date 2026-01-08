@@ -1,0 +1,948 @@
+[
+  {
+    "id": "starting",
+    "name": {
+      "en": "Starting",
+      "de": "Start",
+      "ru": "Старт"
+    },
+    "subcategories": [
+      {
+        "id": "starting:touching_the_mark",
+        "name": {
+          "en": "Touching the mark",
+          "de": "Bojenberührung",
+          "ru": "Касание знака"
+        },
+        "situationIds": [
+          "l36",
+          "l48"
+        ]
+      },
+      {
+        "id": "starting:collision_course",
+        "name": {
+          "en": "Collision course",
+          "de": "Begegnungen Kollisionskurs",
+          "ru": "Курс, ведущий к столкновению"
+        },
+        "situationIds": [
+          "l22",
+          "l26",
+          "l40",
+          "l54",
+          "l57",
+          "l60",
+          "s22",
+          "s27",
+          "s48"
+        ]
+      },
+      {
+        "id": "starting:three_boat_situation",
+        "name": {
+          "en": "Three-boat situation",
+          "de": "3-Boot-Situationen",
+          "ru": "Ситуации с тремя яхтами"
+        },
+        "situationIds": [
+          "m12",
+          "m68",
+          "s28",
+          "s59"
+        ]
+      },
+      {
+        "id": "starting:signals_made_by_the_rc",
+        "name": {
+          "en": "Signals made by the RC",
+          "de": "Signale der Wettfahrtleitung",
+          "ru": "Сигналы ГК"
+        },
+        "situationIds": [
+          "m62",
+          "s66",
+          "m73",
+          "m74",
+          "m75",
+          "m76",
+          "m77"
+        ]
+      },
+      {
+        "id": "starting:pre_start_penalty",
+        "name": {
+          "en": "Pre-start penalty",
+          "de": "Kringeln vor dem Start",
+          "ru": "Наказания до старта"
+        },
+        "situationIds": [
+          "m23",
+          "m55"
+        ]
+      },
+      {
+        "id": "starting:one_on_one",
+        "name": {
+          "en": "One on one",
+          "de": "Match-race-like",
+          "ru": "Яхта против яхты"
+        },
+        "situationIds": [
+          "l40",
+          "s37",
+          "s51"
+        ]
+      },
+      {
+        "id": "starting:pin_end_start",
+        "name": {
+          "en": "Pin-end start",
+          "de": "Start im Lee",
+          "ru": "У пина"
+        },
+        "situationIds": [
+          "m16",
+          "s58"
+        ]
+      },
+      {
+        "id": "starting:port_tacks_to_leeward",
+        "name": {
+          "en": "Port tacks to leeward",
+          "de": "Unterwenden",
+          "ru": "С левого галса оверштаг под ветер"
+        },
+        "situationIds": [
+          "m43",
+          "s24",
+          "s70"
+        ]
+      },
+      {
+        "id": "starting:two_on_the_same_tack",
+        "name": {
+          "en": "Two on the same tack",
+          "de": "Zwei mit gleichem Bug",
+          "ru": "Обе на одном галсе"
+        },
+        "situationIds": [
+          "l09",
+          "l44",
+          "m04",
+          "m29",
+          "s37",
+          "s53"
+        ]
+      },
+      {
+        "id": "starting:boat_end_start",
+        "name": {
+          "en": "Boat-end start",
+          "de": "Start am Schiff",
+          "ru": "У судейского судна"
+        },
+        "situationIds": [
+          "m06",
+          "m47",
+          "s25",
+          "s47",
+          "m67",
+          "s69"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "upwind",
+    "name": {
+      "en": "Upwind",
+      "de": "Kreuz",
+      "ru": "Лавировка"
+    },
+    "subcategories": [
+      {
+        "id": "upwind:tacking_to_opposite_tacks",
+        "name": {
+          "en": "Tacking to opposite tacks",
+          "de": "Wende auf den entgegengesetzten Bug",
+          "ru": "Поворот оверштаг на другой галс"
+        },
+        "situationIds": [
+          "s07",
+          "s44",
+          "m19"
+        ]
+      },
+      {
+        "id": "upwind:tacking_to_the_same_tack",
+        "name": {
+          "en": "Tacking to the same tack",
+          "de": "Wende auf gleichen Bug",
+          "ru": "Поворот оверштаг на тот же галс"
+        },
+        "situationIds": [
+          "m01",
+          "m31",
+          "l45",
+          "l47",
+          "m69",
+          "m70"
+        ]
+      },
+      {
+        "id": "upwind:penalty_turns",
+        "name": {
+          "en": "Penalty turns",
+          "de": "Strafdrehung",
+          "ru": "Штрафные обороты"
+        },
+        "situationIds": [
+          "l33",
+          "m26",
+          "m59",
+          "m60"
+        ]
+      },
+      {
+        "id": "upwind:protest_requirements",
+        "name": {
+          "en": "Protest requirements",
+          "de": "Protest-erfordernis",
+          "ru": "Требования к протесту"
+        },
+        "situationIds": [
+          "m18",
+          "m07",
+          "m15",
+          "m17",
+          "s12"
+        ]
+      },
+      {
+        "id": "upwind:near_shore",
+        "name": {
+          "en": "Near shore",
+          "de": "In Landnähe",
+          "ru": "Возле берега"
+        },
+        "situationIds": [
+          "m46",
+          "l59",
+          "m65",
+          "m66",
+          "s68",
+          "s02",
+          "s76"
+        ]
+      },
+      {
+        "id": "upwind:on_opposite_tacks",
+        "name": {
+          "en": "On opposite tacks",
+          "de": "Kollisionskurs",
+          "ru": "Курс, ведущий к столкновению"
+        },
+        "situationIds": [
+          "s11",
+          "s29",
+          "s61",
+          "m30",
+          "m31",
+          "m33",
+          "l02",
+          "l24",
+          "l25",
+          "l38",
+          "l53",
+          "l61"
+        ]
+      },
+      {
+        "id": "upwind:on_the_same_tack",
+        "name": {
+          "en": "On the same tack",
+          "de": "Wind von der gleichen Seite",
+          "ru": "На одном галсе"
+        },
+        "situationIds": [
+          "s54",
+          "m34",
+          "m37",
+          "m40",
+          "l17",
+          "m72"
+        ]
+      },
+      {
+        "id": "upwind:three_boats",
+        "name": {
+          "en": "Three boats",
+          "de": "3-Boot-Situation",
+          "ru": "Ситуации с тремя яхтами"
+        },
+        "situationIds": [
+          "s17",
+          "s19",
+          "s41",
+          "s13",
+          "s26",
+          "s75",
+          "s50"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "windward_mark",
+    "name": {
+      "en": "Windward mark",
+      "de": "Luvboje",
+      "ru": "Наветренный знак"
+    },
+    "subcategories": [
+      {
+        "id": "windward_mark:buoys_to_port_neither_tacks",
+        "name": {
+          "en": "Buoys to port neither tacks",
+          "de": "Keiner muss wenden",
+          "ru": "Знак слева без поворота оверштаг"
+        },
+        "situationIds": [
+          "l37"
+        ]
+      },
+      {
+        "id": "windward_mark:port_tack_approach_both_must_tack",
+        "name": {
+          "en": "Port tack approach both must tack",
+          "de": "Bb runden beide müssen wenden",
+          "ru": "На левом галсе к знаку, обе должны выполнить оверштаг"
+        },
+        "situationIds": [
+          "s16",
+          "s18",
+          "s10",
+          "m71",
+          "m84"
+        ]
+      },
+      {
+        "id": "windward_mark:port_tacks_to_windward_of_starboard",
+        "name": {
+          "en": "Port tacks to windward of Starboard",
+          "de": "Hineinwenden oberhalb",
+          "ru": "С левого галса оверштаг наветер от правого"
+        },
+        "situationIds": [
+          "m08",
+          "m45",
+          "s06",
+          "s62",
+          "s79",
+          "s80"
+        ]
+      },
+      {
+        "id": "windward_mark:port_tacks_to_leeward_of_starboard",
+        "name": {
+          "en": "Port tacks to leeward of Starboard",
+          "de": "Hineinwenden unterhalb",
+          "ru": "С левого галса оверштаг подветер от правого"
+        },
+        "situationIds": [
+          "l34",
+          "s04",
+          "s05",
+          "s23",
+          "s63",
+          "m81",
+          "m82",
+          "s83",
+          "s84"
+        ]
+      },
+      {
+        "id": "windward_mark:buoys_to_starboard_one_tacks",
+        "name": {
+          "en": "Buoys to starboard: one tacks",
+          "de": "Stb runden, einer muss wenden",
+          "ru": "Знак справа, одна из яхт должна выполнить оверштаг"
+        },
+        "situationIds": [
+          "l52",
+          "m44",
+          "m51",
+          "m56",
+          "s14"
+        ]
+      },
+      {
+        "id": "windward_mark:buoys_to_starboard_both_must_tack",
+        "name": {
+          "en": "Buoys to starboard: both must tack",
+          "de": "Stb runden beide müssen wenden",
+          "ru": "Знак справа, обе яхты должны выполнить оверштаг"
+        },
+        "situationIds": [
+          "m52",
+          "s42",
+          "s49",
+          "s46"
+        ]
+      },
+      {
+        "id": "windward_mark:touching_the_mark",
+        "name": {
+          "en": "Touching the mark",
+          "de": "Bojenberührung, Kringeln",
+          "ru": "Касание знака"
+        },
+        "situationIds": [
+          "l21",
+          "l39",
+          "s31"
+        ]
+      },
+      {
+        "id": "windward_mark:rounding_in_the_wrong_direction",
+        "name": {
+          "en": "Rounding in the wrong direction",
+          "de": "Falsch gerundet",
+          "ru": "Огибание в неверном направлении"
+        },
+        "situationIds": [
+          "l42",
+          "l51"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "on_the_run",
+    "name": {
+      "en": "On the run",
+      "de": "Vorwind",
+      "ru": "Фордевинд"
+    },
+    "subcategories": [
+      {
+        "id": "on_the_run:overtaking_to_windward",
+        "name": {
+          "en": "Overtaking to windward",
+          "de": "Überholen in Luv",
+          "ru": "Обгон с наветра"
+        },
+        "situationIds": [
+          "s33",
+          "m64",
+          "m79"
+        ]
+      },
+      {
+        "id": "on_the_run:overtaking_a_group",
+        "name": {
+          "en": "Overtaking a group",
+          "de": "Überholen einer Gruppe",
+          "ru": "Обгон группы яхт"
+        },
+        "situationIds": [
+          "m02",
+          "m09",
+          "m13"
+        ]
+      },
+      {
+        "id": "on_the_run:overtaking_to_leeward",
+        "name": {
+          "en": "Overtaking to leeward",
+          "de": "Überholen in Lee",
+          "ru": "Обгон с подветра"
+        },
+        "situationIds": [
+          "m10",
+          "m25",
+          "s09",
+          "s32",
+          "s35",
+          "s56",
+          "s65",
+          "s57",
+          "m63",
+          "s67",
+          "l62",
+          "l63",
+          "l64"
+        ]
+      },
+      {
+        "id": "on_the_run:along_a_shore",
+        "name": {
+          "en": "Along a shore",
+          "de": "Entlang der Küste",
+          "ru": "Вдоль берега"
+        },
+        "situationIds": [
+          "m05",
+          "m50",
+          "m32",
+          "m80"
+        ]
+      },
+      {
+        "id": "on_the_run:gybing",
+        "name": {
+          "en": "Gybing",
+          "de": "Halse",
+          "ru": "Поворот фордевинд"
+        },
+        "situationIds": [
+          "s39",
+          "m35"
+        ]
+      },
+      {
+        "id": "on_the_run:side_by_side",
+        "name": {
+          "en": "Side by side",
+          "de": "Zwei nebeneinander",
+          "ru": "Борт к борту"
+        },
+        "situationIds": [
+          "l05",
+          "l10",
+          "l08",
+          "l16",
+          "l29",
+          "m27",
+          "s55"
+        ]
+      },
+      {
+        "id": "on_the_run:one_behind_the_other",
+        "name": {
+          "en": "One behind the other",
+          "de": "Zwei hintereinander",
+          "ru": "Одна позади другой"
+        },
+        "situationIds": [
+          "l03",
+          "l13",
+          "l12",
+          "l20",
+          "l18",
+          "l30"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "leeward_mark",
+    "name": {
+      "en": "Leeward mark",
+      "de": "Leeboje",
+      "ru": "Подветренный знак"
+    },
+    "subcategories": [
+      {
+        "id": "leeward_mark:not_overlapped_at_the_zone",
+        "name": {
+          "en": "Not overlapped at the Zone",
+          "de": "Zwei hintereinander",
+          "ru": "Не связаны в зоне"
+        },
+        "situationIds": [
+          "l28",
+          "m36",
+          "m39",
+          "m83"
+        ]
+      },
+      {
+        "id": "leeward_mark:overlapped_at_the_zone",
+        "name": {
+          "en": "Overlapped at the Zone",
+          "de": "Zwei nebeneinander",
+          "ru": "Связаны в зоне"
+        },
+        "situationIds": [
+          "l19",
+          "m11",
+          "s71",
+          "s08",
+          "s21",
+          "s72",
+          "s73",
+          "s74",
+          "l32"
+        ]
+      },
+      {
+        "id": "leeward_mark:inside_must_gybe",
+        "name": {
+          "en": "Inside must gybe",
+          "de": "Innen muss halsen",
+          "ru": "Внутренняя должна выполнить фордевинд"
+        },
+        "situationIds": [
+          "m20",
+          "m03",
+          "s34",
+          "s15",
+          "s43",
+          "s78"
+        ]
+      },
+      {
+        "id": "leeward_mark:more_than_two_boats",
+        "name": {
+          "en": "More than two boats",
+          "de": "Mehr-Boot-Situationen",
+          "ru": "Больше двух яхт"
+        },
+        "situationIds": [
+          "l35",
+          "s20",
+          "s30",
+          "s34",
+          "s77"
+        ]
+      },
+      {
+        "id": "leeward_mark:touching_the_mark",
+        "name": {
+          "en": "Touching the mark",
+          "de": "Bojenberührung",
+          "ru": "Касание знака"
+        },
+        "situationIds": [
+          "l11",
+          "l23",
+          "l56"
+        ]
+      },
+      {
+        "id": "leeward_mark:definitions",
+        "name": {
+          "en": "Definitions",
+          "de": "Definitionen",
+          "ru": "Определения"
+        },
+        "situationIds": [
+          "m48",
+          "s45",
+          "s40",
+          "m36"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gybe_mark",
+    "name": {
+      "en": "Gybe mark",
+      "de": "Raumboje",
+      "ru": "Поворотный знак"
+    },
+    "subcategories": [
+      {
+        "id": "gybe_mark:not_overlapped_at_the_zone",
+        "name": {
+          "en": "Not overlapped at the Zone",
+          "de": "Zwei hintereinander",
+          "ru": "Не связаны в зоне"
+        },
+        "situationIds": [
+          "l28",
+          "m36",
+          "m39"
+        ]
+      },
+      {
+        "id": "gybe_mark:overlapped_at_the_zone",
+        "name": {
+          "en": "Overlapped at the Zone",
+          "de": "Zwei nebeneinander",
+          "ru": "Связаны в зоне"
+        },
+        "situationIds": [
+          "l19",
+          "m11",
+          "s71",
+          "s08",
+          "s21",
+          "s72",
+          "s73",
+          "s74",
+          "l32"
+        ]
+      },
+      {
+        "id": "gybe_mark:inside_must_gybe",
+        "name": {
+          "en": "Inside must gybe",
+          "de": "Innen muss halsen",
+          "ru": "Внутренняя должна выполнить фордевинд"
+        },
+        "situationIds": [
+          "m03",
+          "m20",
+          "s15",
+          "s34",
+          "s43",
+          "s78"
+        ]
+      },
+      {
+        "id": "gybe_mark:more_than_two_boats",
+        "name": {
+          "en": "More than two boats",
+          "de": "Mehr-Boot-Situationen",
+          "ru": "Больше двух яхт"
+        },
+        "situationIds": [
+          "l35",
+          "s20",
+          "s30",
+          "m57",
+          "s77"
+        ]
+      },
+      {
+        "id": "gybe_mark:touching_the_mark",
+        "name": {
+          "en": "Touching the mark",
+          "de": "Bojenberührung",
+          "ru": "Касание знака"
+        },
+        "situationIds": [
+          "l11",
+          "l23",
+          "l56"
+        ]
+      },
+      {
+        "id": "gybe_mark:definitions",
+        "name": {
+          "en": "Definitions",
+          "de": "Definitionen",
+          "ru": "Определения"
+        },
+        "situationIds": [
+          "m48",
+          "s45",
+          "s40",
+          "m36"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "on_the_reaches",
+    "name": {
+      "en": "On the reaches",
+      "de": "Halb und Raum",
+      "ru": "Бакштаг"
+    },
+    "subcategories": [
+      {
+        "id": "on_the_reaches:near_the_shore",
+        "name": {
+          "en": "Near the shore",
+          "de": "In Landnähe",
+          "ru": "Возле берега"
+        },
+        "situationIds": [
+          "s64",
+          "m21"
+        ]
+      },
+      {
+        "id": "on_the_reaches:overtaking",
+        "name": {
+          "en": "Overtaking",
+          "de": "Überholmanöver",
+          "ru": "Обгон"
+        },
+        "situationIds": [
+          "s09",
+          "s57"
+        ]
+      },
+      {
+        "id": "on_the_reaches:overlapped",
+        "name": {
+          "en": "Overlapped",
+          "de": "Nebeneinander",
+          "ru": "Связаны"
+        },
+        "situationIds": [
+          "l14",
+          "l17",
+          "l43",
+          "l49",
+          "m25",
+          "m33"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "meetings_on_different_legs",
+    "name": {
+      "en": "Meetings on different legs",
+      "de": "Begegnungen",
+      "ru": "Встреча на разных курсах"
+    },
+    "subcategories": [
+      {
+        "id": "meetings_on_different_legs:beat_vs_run",
+        "name": {
+          "en": "Beat vs. run",
+          "de": "Kreuz - Vorwind",
+          "ru": "Лавировка и фордевинд"
+        },
+        "situationIds": [
+          "l01",
+          "l04",
+          "l07",
+          "l15"
+        ]
+      },
+      {
+        "id": "meetings_on_different_legs:on_a_reach",
+        "name": {
+          "en": "On a reach",
+          "de": "Halbwind - Halbwind",
+          "ru": "На бакштаге"
+        },
+        "situationIds": [
+          "l49",
+          "l14",
+          "l06"
+        ]
+      },
+      {
+        "id": "meetings_on_different_legs:changing_course",
+        "name": {
+          "en": "Changing course",
+          "de": "Kursänderungen",
+          "ru": "Изменение курса"
+        },
+        "situationIds": [
+          "l40",
+          "m48",
+          "s33"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "finishing",
+    "name": {
+      "en": "Finishing",
+      "de": "Ziel",
+      "ru": "Финиш"
+    },
+    "subcategories": [
+      {
+        "id": "finishing:room_at_the_finish_mark",
+        "name": {
+          "en": "Room at the finish mark",
+          "de": "An der Boje reinlassen?",
+          "ru": "Место у финишного знака"
+        },
+        "situationIds": [
+          "m38",
+          "m41",
+          "m53",
+          "l41"
+        ]
+      },
+      {
+        "id": "finishing:three_boat_situation",
+        "name": {
+          "en": "Three-boat situation",
+          "de": "3-Boot-Situationen",
+          "ru": "Ситуации с тремя яхтами"
+        },
+        "situationIds": [
+          "s36",
+          "m53"
+        ]
+      },
+      {
+        "id": "finishing:room_at_the_boat_end",
+        "name": {
+          "en": "Room at the boat end",
+          "de": "Am Schiff reinlassen?",
+          "ru": "Место у судна ГК"
+        },
+        "situationIds": [
+          "s01",
+          "m42"
+        ]
+      },
+      {
+        "id": "finishing:finishing_correctly",
+        "name": {
+          "en": "Finishing correctly",
+          "de": "Richtiger Zieldurchgang?",
+          "ru": "Правильный финиш"
+        },
+        "situationIds": [
+          "s03",
+          "s38",
+          "s52",
+          "m14",
+          "m24",
+          "m28"
+        ]
+      },
+      {
+        "id": "finishing:touching_the_mark",
+        "name": {
+          "en": "Touching the mark",
+          "de": "Bojenberührung",
+          "ru": "Касание знака"
+        },
+        "situationIds": [
+          "m58",
+          "l27",
+          "l31",
+          "l46",
+          "l55"
+        ]
+      },
+      {
+        "id": "finishing:downwind_finishes",
+        "name": {
+          "en": "Downwind finishes",
+          "de": "Vorwindziel",
+          "ru": "Финиш на полном курсе"
+        },
+        "situationIds": [
+          "l58",
+          "m61",
+          "m78",
+          "s82",
+          "m85",
+          "m86"
+        ]
+      },
+      {
+        "id": "finishing:interference_after_finishing",
+        "name": {
+          "en": "Interference after finishing",
+          "de": "Nach Zieldurchgang behindern",
+          "ru": "Создание помех после финиша"
+        },
+        "situationIds": [
+          "m22",
+          "m54",
+          "l50"
+        ]
+      }
+    ]
+  }
+]
