@@ -212,6 +212,7 @@ export default function App() {
   const [uncategorized, setUncategorized] = useState<string[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const [showFilters, setShowFilters] = useState(true)
 
   const langParam = searchParams.get('lang')
   const lang: Language = langParam === 'de' || langParam === 'ru' ? langParam : 'en'
@@ -371,74 +372,79 @@ export default function App() {
               onChange={(e) => updateParam('q', e.target.value)}
             />
           </div>
+          <button className="btn secondary" onClick={() => setShowFilters((v) => !v)}>
+            {showFilters ? 'Hide filters' : 'Show filters'}
+          </button>
         </div>
       </header>
 
-      <div className="layout">
-        <aside className="panel">
-          <div className="panel__section">
-            <div className="panel__title">Difficulty</div>
-            <div className="chip-row">
-              {(['all', 'beginner', 'intermediate', 'advanced'] as const).map((d) => (
+      <div className="layout" style={{ gridTemplateColumns: showFilters ? '320px 1fr' : '1fr' }}>
+        {showFilters && (
+          <aside className="panel">
+            <div className="panel__section">
+              <div className="panel__title">Difficulty</div>
+              <div className="chip-row">
+                {(['all', 'beginner', 'intermediate', 'advanced'] as const).map((d) => (
+                  <button
+                    key={d}
+                    className={clsx('chip', { active: difficulty === d })}
+                    onClick={() => updateParam('difficulty', d === 'all' ? null : d)}
+                  >
+                    {d === 'all' ? 'All' : DIFFICULTY_LABELS[d as Difficulty]}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <div className="panel__section">
+              <div className="panel__title">Categories</div>
+              <div className="category-tree">
                 <button
-                  key={d}
-                  className={clsx('chip', { active: difficulty === d })}
-                  onClick={() => updateParam('difficulty', d === 'all' ? null : d)}
+                  className={clsx('category-button', { active: category === '' })}
+                  onClick={() => updateParam('category', null)}
                 >
-                  {d === 'all' ? 'All' : DIFFICULTY_LABELS[d as Difficulty]}
+                  <span>All categories</span>
+                  <span className="count-pill">{situations.length}</span>
                 </button>
-              ))}
-            </div>
-          </div>
-
-          <div className="panel__section">
-            <div className="panel__title">Categories</div>
-            <div className="category-tree">
-              <button
-                className={clsx('category-button', { active: category === '' })}
-                onClick={() => updateParam('category', null)}
-              >
-                <span>All categories</span>
-                <span className="count-pill">{situations.length}</span>
-              </button>
-              {categories.map((cat) => (
-                <div key={cat.id} className="category-parent">
-                  <div className="category-label">
-                    {cat.name[lang] || cat.name.en} <span className="count-pill">{categoryCounts[cat.id] || 0}</span>
+                {categories.map((cat) => (
+                  <div key={cat.id} className="category-parent">
+                    <div className="category-label">
+                      {cat.name[lang] || cat.name.en} <span className="count-pill">{categoryCounts[cat.id] || 0}</span>
+                    </div>
+                    <div className="subcategory-list">
+                      {cat.subcategories.map((sub) => (
+                        <button
+                          key={sub.id}
+                          className={clsx('category-button', { active: category === sub.id })}
+                          onClick={() => updateParam('category', sub.id)}
+                        >
+                          <span>{sub.name[lang] || sub.name.en}</span>
+                          <span className="count-pill">{categoryCounts[sub.id] || 0}</span>
+                        </button>
+                      ))}
+                    </div>
                   </div>
-                  <div className="subcategory-list">
-                    {cat.subcategories.map((sub) => (
-                      <button
-                        key={sub.id}
-                        className={clsx('category-button', { active: category === sub.id })}
-                        onClick={() => updateParam('category', sub.id)}
-                      >
-                        <span>{sub.name[lang] || sub.name.en}</span>
-                        <span className="count-pill">{categoryCounts[sub.id] || 0}</span>
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
-          </div>
 
-          <div className="panel__section">
-            <div className="panel__title">Checks</div>
-            <div className="issue-toggle">
-              <input
-                type="checkbox"
-                checked={issuesOnly}
-                onChange={(e) => updateParam('issues', e.target.checked ? '1' : null)}
-              />
-              <span>Show items with issues ({issueIds.length})</span>
+            <div className="panel__section">
+              <div className="panel__title">Checks</div>
+              <div className="issue-toggle">
+                <input
+                  type="checkbox"
+                  checked={issuesOnly}
+                  onChange={(e) => updateParam('issues', e.target.checked ? '1' : null)}
+                />
+                <span>Show items with issues ({issueIds.length})</span>
+              </div>
+              <div className="issue-row" style={{ marginTop: 8 }}>
+                <span className="pill issue">Missing media</span>
+                <span className="pill">Uncategorized: {uncategorized.length}</span>
+              </div>
             </div>
-            <div className="issue-row" style={{ marginTop: 8 }}>
-              <span className="pill issue">Missing media</span>
-              <span className="pill">Uncategorized: {uncategorized.length}</span>
-            </div>
-          </div>
-        </aside>
+          </aside>
+        )}
 
         <div className="main">
           <section className="list-pane">
