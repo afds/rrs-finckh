@@ -572,15 +572,15 @@ export default function App() {
                     className="video-grid"
                     style={{ gridTemplateColumns: `repeat(${videos.length}, minmax(0, 1fr))` }}
                   >
-                    {videos.map((v) => (
-                      <div className="video-box" key={v.key}>
-                        <h4>{v.label}</h4>
-                        <video controls src={v.src} />
-                      </div>
-                    ))}
-                  </div>
-                )
-              })()}
+                      {videos.map((v) => (
+                        <div className="video-box" key={v.key}>
+                          <h4>{v.label}</h4>
+                          <video controls src={v.src} autoPlay loop muted />
+                        </div>
+                      ))}
+                    </div>
+                  )
+                })()}
 
                 <div className="markdown">
                   <ReactMarkdown remarkPlugins={[remarkGfm]}>
