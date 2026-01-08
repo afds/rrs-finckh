@@ -555,14 +555,6 @@ export default function App() {
                   </div>
                 </div>
 
-                <div className="options">
-                  {current.options.map((opt, idx) => (
-                    <div key={idx} className={clsx('option', { correct: idx === current.answerOpt })}>
-                      <strong>Option {idx + 1}</strong>: {getOptionText(opt, lang)}
-                    </div>
-                  ))}
-                </div>
-
                 {(() => {
                   const videos = [
                     current.hasQuestionVideo
@@ -594,6 +586,14 @@ export default function App() {
                   <ReactMarkdown remarkPlugins={[remarkGfm]}>
                     {getLocalizedText(current.question, lang)}
                   </ReactMarkdown>
+                </div>
+
+                <div className="options">
+                  {current.options.map((opt, idx) => (
+                    <div key={idx} className={clsx('option', { correct: idx === current.answerOpt })}>
+                      <strong>Option {idx + 1}</strong>: {getOptionText(opt, lang)}
+                    </div>
+                  ))}
                 </div>
 
                 <div className="markdown">
