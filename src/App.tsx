@@ -592,11 +592,39 @@ export default function App() {
                   }
                 }
 
+                const handlePlayBoth = () => {
+                  const q = questionVideoRef.current
+                  const a = answerVideoRef.current
+                  if (q) {
+                    try {
+                      q.currentTime = 0
+                      void q.play()
+                    } catch {
+                      // ignore
+                    }
+                  }
+                  if (a) {
+                    try {
+                      a.currentTime = 0
+                      void a.play()
+                    } catch {
+                      // ignore
+                    }
+                  }
+                }
+
                 return (
                   <div
                     className="video-grid"
                     style={{ gridTemplateColumns: `repeat(${videos.length}, minmax(0, 1fr))` }}
                   >
+                    {videos.length > 1 && (
+                      <div className="video-box" style={{ gridColumn: `1 / span ${videos.length}` }}>
+                        <button className="btn secondary" onClick={handlePlayBoth}>
+                          Play both from start
+                        </button>
+                      </div>
+                    )}
                     {videos.map((v) => (
                       <div className="video-box" key={v.key}>
                         <h4>{v.label}</h4>
