@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { useSearchParams } from 'react-router-dom'
@@ -213,6 +213,7 @@ export default function App() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [showFilters, setShowFilters] = useState(true)
+  const cardRefs = useRef<Record<string, HTMLDivElement | null>>({})
 
   const langParam = searchParams.get('lang')
   const lang: Language = langParam === 'de' || langParam === 'ru' ? langParam : 'en'
@@ -312,6 +313,13 @@ export default function App() {
   }
 
   useKeyboardNav(ids, current?.id ?? null, selectId)
+  useEffect(() => {
+    if (!selectedId) return
+    const node = cardRefs.current[selectedId]
+    if (node) {
+      node.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    }
+  }, [selectedId, filtered])
 
   const categoryCounts = useMemo(() => {
     const counts: Record<string, number> = {}
@@ -461,6 +469,13 @@ export default function App() {
                 return (
                   <div
                     key={s.id}
+                    ref={(el) => {
+                      if (el) {
+                        cardRefs.current[s.id] = el
+                      } else {
+                        delete cardRefs.current[s.id]
+                      }
+                    }}
                     className={clsx('card', { active: current?.id === s.id })}
                     onClick={() => selectId(s.id)}
                   >
