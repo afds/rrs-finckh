@@ -386,15 +386,17 @@ export default function App() {
               onChange={(e) => updateParam('q', e.target.value)}
             />
           </div>
-          <button className="btn secondary" onClick={() => setShowFilters((v) => !v)}>
-            {showFilters ? 'Hide filters' : 'Show filters'}
-          </button>
         </div>
       </header>
 
       <div className="layout" style={{ gridTemplateColumns: showFilters ? '320px 1fr' : '1fr' }}>
         {showFilters && (
           <aside className="panel">
+            <div className="panel__section" style={{ display: 'flex', justifyContent: 'flex-end' }}>
+              <button className="btn secondary" onClick={() => setShowFilters((v) => !v)}>
+                Hide filters
+              </button>
+            </div>
             <div className="panel__section">
               <div className="panel__title">Difficulty</div>
               <div className="chip-row">
@@ -458,6 +460,13 @@ export default function App() {
               </div>
             </div>
           </aside>
+        )}
+        {!showFilters && (
+          <div style={{ marginBottom: 12 }}>
+            <button className="btn secondary" onClick={() => setShowFilters(true)}>
+              Show filters
+            </button>
+          </div>
         )}
 
         <div className="main">
