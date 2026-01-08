@@ -575,18 +575,20 @@ export default function App() {
 
                 if (videos.length === 0) return null
 
-                const handleSyncPlay = (from: 'question' | 'answer') => {
+                const handleSyncPlay = (from: 'question' | 'answer', userGesture = false) => {
                   const sourceRef = from === 'question' ? questionVideoRef : answerVideoRef
                   const targetRef = from === 'question' ? answerVideoRef : questionVideoRef
                   const source = sourceRef.current
                   const target = targetRef.current
-                  if (source && target) {
-                    try {
-                      target.currentTime = source.currentTime
-                      void target.play()
-                    } catch {
-                      // ignore play issues (e.g., autoplay restrictions)
+                  if (!source || !target) return
+                  try {
+                    target.currentTime = source.currentTime
+                    const playPromise = target.play()
+                    if (userGesture && playPromise && typeof playPromise.then === 'function') {
+                      playPromise.catch(() => {})
                     }
+                  } catch {
+                    // ignore play issues (e.g., autoplay restrictions)
                   }
                 }
 
@@ -603,6 +605,7 @@ export default function App() {
                           src={v.src}
                           ref={v.key === 'question' ? questionVideoRef : answerVideoRef}
                           onPlay={() => handleSyncPlay(v.key as 'question' | 'answer')}
+                          onClick={() => handleSyncPlay(v.key as 'question' | 'answer', true)}
                         />
                       </div>
                     ))}
