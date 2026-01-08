@@ -215,8 +215,6 @@ export default function App() {
   const [showFilters, setShowFilters] = useState(true)
   const cardRefs = useRef<Record<string, HTMLDivElement | null>>({})
   const listRef = useRef<HTMLDivElement | null>(null)
-  const questionVideoRef = useRef<HTMLVideoElement | null>(null)
-  const answerVideoRef = useRef<HTMLVideoElement | null>(null)
 
   const langParam = searchParams.get('lang')
   const lang: Language = langParam === 'de' || langParam === 'ru' ? langParam : 'en'
@@ -328,12 +326,6 @@ export default function App() {
       container.scrollTo({ top: Math.max(target, 0), behavior: 'smooth' })
     }
   }, [selectedId, filtered])
-
-  useEffect(() => {
-    // reset video refs when switching situations
-    questionVideoRef.current = null
-    answerVideoRef.current = null
-  }, [current?.id])
 
   const categoryCounts = useMemo(() => {
     const counts: Record<string, number> = {}
@@ -575,66 +567,15 @@ export default function App() {
 
                 if (videos.length === 0) return null
 
-                const handleSyncPlay = (from: 'question' | 'answer', userGesture = false) => {
-                  const sourceRef = from === 'question' ? questionVideoRef : answerVideoRef
-                  const targetRef = from === 'question' ? answerVideoRef : questionVideoRef
-                  const source = sourceRef.current
-                  const target = targetRef.current
-                  if (!source || !target) return
-                  try {
-                    target.currentTime = source.currentTime
-                    const playPromise = target.play()
-                    if (userGesture && playPromise && typeof playPromise.then === 'function') {
-                      playPromise.catch(() => {})
-                    }
-                  } catch {
-                    // ignore play issues (e.g., autoplay restrictions)
-                  }
-                }
-
-                const handlePlayBoth = () => {
-                  const q = questionVideoRef.current
-                  const a = answerVideoRef.current
-                  if (q) {
-                    try {
-                      q.currentTime = 0
-                      void q.play()
-                    } catch {
-                      // ignore
-                    }
-                  }
-                  if (a) {
-                    try {
-                      a.currentTime = 0
-                      void a.play()
-                    } catch {
-                      // ignore
-                    }
-                  }
-                }
-
                 return (
                   <div
                     className="video-grid"
                     style={{ gridTemplateColumns: `repeat(${videos.length}, minmax(0, 1fr))` }}
                   >
-                    {videos.length > 1 && (
-                      <div className="video-box" style={{ gridColumn: `1 / span ${videos.length}` }}>
-                        <button className="btn secondary" onClick={handlePlayBoth}>
-                          Play both from start
-                        </button>
-                      </div>
-                    )}
                     {videos.map((v) => (
                       <div className="video-box" key={v.key}>
                         <h4>{v.label}</h4>
-                        <video
-                          controls
-                          src={v.src}
-                          ref={v.key === 'question' ? questionVideoRef : answerVideoRef}
-                          onPlay={() => handleSyncPlay(v.key as 'question' | 'answer')}
-                          onClick={() => handleSyncPlay(v.key as 'question' | 'answer', true)}
-                        />
+                        <video controls src={v.src} />
                       </div>
                     ))}
                   </div>
