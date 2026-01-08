@@ -495,7 +495,7 @@ export default function App() {
                     onClick={() => selectId(s.id)}
                   >
                     <div className="card__top">
-                      <span>{s.id}</span>
+                      <span>{s.id.toUpperCase()}</span>
                       <span className={clsx('pill', `difficulty-${s.difficulty}`)}>
                         {DIFFICULTY_LABELS[s.difficulty]}
                       </span>
@@ -525,7 +525,7 @@ export default function App() {
               <>
                 <div className="detail-header">
                   <h2>
-                    {current.id} — {getLocalizedText(current.question, lang)}
+                    {current.id.toUpperCase()} — {getLocalizedText(current.question, lang)}
                   </h2>
                   <span className={clsx('pill', `difficulty-${current.difficulty}`)}>
                     {DIFFICULTY_LABELS[current.difficulty]}
