@@ -29,6 +29,12 @@
   font-size: 14px;
 }
 
+.legal-note {
+  font-size: 12px;
+  color: #6b7280;
+  line-height: 1.4;
+}
+
 .layout {
   display: grid;
   grid-template-columns: 320px 1fr;
