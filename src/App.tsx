@@ -360,7 +360,11 @@ export default function App() {
           <h1>RRS Situations Review</h1>
           <span>Browse questions, answers, animations, and categories</span>
           <span className="legal-note">
-            The situations, text, and animations are copyrighted works of https://game.finckh.net/ and remain its property. All rights reserved.
+            The situations, text, and animations are copyrighted works of{' '}
+            <a href="https://game.finckh.net/" target="_blank" rel="noreferrer">
+              game.finckh.net
+            </a>{' '}
+            and remain its property. All rights reserved.
           </span>
         </div>
         <div className="filters-inline">

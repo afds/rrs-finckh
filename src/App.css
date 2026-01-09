@@ -35,6 +35,11 @@
   line-height: 1.4;
 }
 
+.legal-note a {
+  color: inherit;
+  text-decoration: underline;
+}
+
 .layout {
   display: grid;
   grid-template-columns: 320px 1fr;
