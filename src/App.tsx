@@ -8,7 +8,7 @@ import './App.css'
 type Language = 'en' | 'de' | 'ru'
 type Difficulty = 'beginner' | 'intermediate' | 'advanced'
 
-type LocalizedEntry = { text: string; lastModified?: string }
+type LocalizedEntry = string | { text: string; lastModified?: string }
 type RawOption = Record<string, LocalizedEntry>
 type RawSituation = {
   id: string
@@ -78,23 +78,17 @@ async function fetchJson<T>(path: string): Promise<T> {
 }
 
 function getLocalizedText(entry: Record<string, LocalizedEntry>, lang: Language) {
-  return (
-    entry?.[lang]?.text ??
-    entry?.en?.text ??
-    entry?.de?.text ??
-    entry?.ru?.text ??
-    ''
-  )
+  const pick = (val?: LocalizedEntry) =>
+    typeof val === 'string' ? val : val?.text ?? ''
+
+  return pick(entry?.[lang]) || pick(entry?.en) || pick(entry?.de) || pick(entry?.ru) || ''
 }
 
 function getOptionText(option: RawOption, lang: Language) {
-  return (
-    option?.[lang] ||
-    option?.en ||
-    option?.de ||
-    option?.ru ||
-    { text: '' }
-  ).text
+  const pick = (val?: LocalizedEntry) =>
+    typeof val === 'string' ? val : val?.text ?? ''
+
+  return pick(option?.[lang]) || pick(option?.en) || pick(option?.de) || pick(option?.ru) || ''
 }
 
 function buildCategoryIndex(categories: CategoryNode[]): CategoryIndex {
